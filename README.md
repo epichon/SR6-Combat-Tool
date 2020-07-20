@@ -14,6 +14,7 @@ Shadowrun setting, images, logos and icons all belong to Catalyst Game Labs, lic
 3. Unzip the SR6 Combat Tool.app.zip and DBBuilder.app.zip to get the actual app files.
 4. Unzip the SR6Actors.xcdatamodeld.zip file in the "SR 6 Combat Tool" subfolder.
 5. Pre-built actors for all the bits in SR6 (the core book) are in the Actor Library.
+  - I have posted the actor files without pictures, due to obvious rights issues.
 
 # Compilation Instructions
 1. Download Xcode.
@@ -27,4 +28,5 @@ If you don't want to use Xcode, you can run the app directly (after you've unzip
 2. Select "open"
 3. After that, you should be able to open by double clicking.
 
-# Instructions on using the tool(s), and guide to the code is in the SR6 Combat Tool Instructions and Code Guide 2.0.pdf (or pages, if you want the source).
+# Instructions on using the tool(s), and guide to the Code
+See the SR6 Combat Tool Instructions and Code Guide 2.0.pdf (or pages, if you want the source).
