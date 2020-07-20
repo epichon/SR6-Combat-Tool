@@ -1,0 +1,1700 @@
+<?xml version="1.0"?>
+<!DOCTYPE database SYSTEM "file:///System/Library/DTDs/CoreData.dtd">
+
+<database>
+    <databaseInfo>
+        <version>134481920</version>
+        <UUID>D71BF5F6-C8CD-4276-A224-6CF32B557CA9</UUID>
+        <nextObjectID>161</nextObjectID>
+        <metadata>
+            <plist version="1.0">
+                <dict>
+                    <key>NSPersistenceFrameworkVersion</key>
+                    <integer>977</integer>
+                    <key>NSStoreModelVersionHashes</key>
+                    <dict>
+                        <key>SR6Actor</key>
+                        <data>
+		LsRv5xVbMyrRR1IxjjlYTpIsz23iap0Y3aYaqXd9Bc4=
+		</data>
+                        <key>SR6ActorAdeptPower</key>
+                        <data>
+		CI6cpotyvm/U6q5zhW2SbEc+h7RefhirSFURo7X/zKY=
+		</data>
+                        <key>SR6ActorAug</key>
+                        <data>
+		lYIWkDeSq5+xa95P5FZl5ZH0TUErOLz2YVaDC6szk0M=
+		</data>
+                        <key>SR6ActorComplexForm</key>
+                        <data>
+		e0E1pDJEBQ2Bu4+J4iMJVeqK/UiEYaUQdrUFtyjQNCw=
+		</data>
+                        <key>SR6ActorEcho</key>
+                        <data>
+		QwFWoQvcjrj6cAfOeVER37QPrEnrOkJFyjNFjRUdWY8=
+		</data>
+                        <key>SR6ActorMetamagic</key>
+                        <data>
+		N9/7VDk+ToEqR24h5287xTiNTaZwDTyh0ElRUC99tlQ=
+		</data>
+                        <key>SR6ActorPower</key>
+                        <data>
+		Q/Jbt/lYbpC2H56gRKoHewLL6Bu4alRBogHN07kXyz0=
+		</data>
+                        <key>SR6ActorProgram</key>
+                        <data>
+		qBeEC5OcvEaiKv1tB43LrtFB19Mx6SeGR/qDfRVvIW8=
+		</data>
+                        <key>SR6ActorQuality</key>
+                        <data>
+		bVpVBJA00/MvIKObmZI1nGseGqQALjuZNemZdVdOSp4=
+		</data>
+                        <key>SR6ActorSpell</key>
+                        <data>
+		tFn/GYlQfeFFq6DZq+m0Fl8pMuYxRh0imT2Q/odTpYg=
+		</data>
+                        <key>SR6ActorWeapon</key>
+                        <data>
+		H7DFpdqcrGBh/6bfrCt9qLXliR3bX0jofv33cYLVOAE=
+		</data>
+                        <key>SR6AdeptPower</key>
+                        <data>
+		YGGKVKO602p3Ik01u85fgcq4rXkzZMZgUB5B+DESe2M=
+		</data>
+                        <key>SR6Aug</key>
+                        <data>
+		DznjXt1ZqPxBz76e/d6cGyLuH9mb7KQ7cN/XjUv2dBg=
+		</data>
+                        <key>SR6ComplexForm</key>
+                        <data>
+		maYbjcTt13AsLywBJzF0X3GfjfGKUEOSjTJa0mMlhn8=
+		</data>
+                        <key>SR6Echo</key>
+                        <data>
+		5/4lkQWzF9RFc2Yfw6ZaHffzHxOAXqyo0JxCLSWeM88=
+		</data>
+                        <key>SR6Mentor</key>
+                        <data>
+		CKOErQzaQWr41dB2WJAes663fM/yDKo5HnGQZYqttPY=
+		</data>
+                        <key>SR6Metamagic</key>
+                        <data>
+		JiTuun9Ru6fA5qvugF6h4GxPk2z6DEjJNALhdqUHjQ8=
+		</data>
+                        <key>SR6Power</key>
+                        <data>
+		mxo0I+7ngfwwtUxeJtGZTYmqazbYn7RvRk4RLQElIpU=
+		</data>
+                        <key>SR6Program</key>
+                        <data>
+		qfzKFa7hByFq46OR/gZDpFnridLU5iACL2+JsCo3p64=
+		</data>
+                        <key>SR6Quality</key>
+                        <data>
+		k8VdrAtXz9s/AkCyFuIVLpUmPQgzgH5C6thQdBmuz6E=
+		</data>
+                        <key>SR6Spell</key>
+                        <data>
+		Cq0A3eUnJd2HCMsLg6qOqpw/rnHqlxGIZSJmOEB3PZQ=
+		</data>
+                        <key>SR6Weapon</key>
+                        <data>
+		RBEzuROgb19T0TpimXQF9xTFNuggfx90Ti2VJiPNYk8=
+		</data>
+                    </dict>
+                    <key>NSStoreModelVersionHashesDigest</key>
+                    <string>N4gdK72CIlGBMiSFSrZKlgFXkeCqhan8IffvZeFe4UUrh2uBbrD1OgcigeWJdKIrooW6c06fkqGaewmxOIV88w==</string>
+                    <key>NSStoreModelVersionHashesVersion</key>
+                    <integer>3</integer>
+                    <key>NSStoreModelVersionIdentifiers</key>
+                    <array>
+                        <string>SR6Actor</string>
+                    </array>
+                </dict>
+            </plist>
+        </metadata>
+    </databaseInfo>
+    <object type="SR6ACTOR" id="z102">
+        <attribute name="vehtopspeed" type="int16">0</attribute>
+        <attribute name="vehspeedinterval" type="int16">0</attribute>
+        <attribute name="vehsensor" type="int16">0</attribute>
+        <attribute name="vehseat" type="int16">0</attribute>
+        <attribute name="vehpilot" type="int16">0</attribute>
+        <attribute name="vehhandling" type="string"></attribute>
+        <attribute name="vehbody" type="int16">0</attribute>
+        <attribute name="veharmor" type="int16">0</attribute>
+        <attribute name="vehaccel" type="int16">0</attribute>
+        <attribute name="submersiongrade" type="int16">0</attribute>
+        <attribute name="stuncondition" type="int16">0</attribute>
+        <attribute name="statuszappedduration" type="int16">-1</attribute>
+        <attribute name="statuszapped" type="bool">0</attribute>
+        <attribute name="statuswetduration" type="int16">-1</attribute>
+        <attribute name="statuswet" type="bool">0</attribute>
+        <attribute name="statusstilledduration" type="int16">-1</attribute>
+        <attribute name="statusstilled" type="bool">0</attribute>
+        <attribute name="statussilentrating" type="int16">6</attribute>
+        <attribute name="statussilentimprovedrating" type="int16">6</attribute>
+        <attribute name="statussilentimprovedduration" type="int16">-1</attribute>
+        <attribute name="statussilentimproved" type="bool">0</attribute>
+        <attribute name="statussilentduration" type="int16">-1</attribute>
+        <attribute name="statussilent" type="bool">0</attribute>
+        <attribute name="statusproneduration" type="int16">-1</attribute>
+        <attribute name="statusprone" type="bool">0</attribute>
+        <attribute name="statuspoisonedrating" type="int16">6</attribute>
+        <attribute name="statuspoisonedduration" type="int16">-1</attribute>
+        <attribute name="statuspoisoned" type="bool">0</attribute>
+        <attribute name="statuspetrifiedduration" type="int16">-1</attribute>
+        <attribute name="statuspetrified" type="bool">0</attribute>
+        <attribute name="statuspanickedduration" type="int16">-1</attribute>
+        <attribute name="statuspanicked" type="bool">0</attribute>
+        <attribute name="statusoffbalanceduration" type="int16">-1</attribute>
+        <attribute name="statusoffbalance" type="bool">0</attribute>
+        <attribute name="statusnoiserating" type="int16">1</attribute>
+        <attribute name="statusnoiseduration" type="int16">-1</attribute>
+        <attribute name="statusnoise" type="bool">0</attribute>
+        <attribute name="statusnauseatedduration" type="int16">-1</attribute>
+        <attribute name="statusnauseated" type="bool">0</attribute>
+        <attribute name="statusmutedduration" type="int16">-1</attribute>
+        <attribute name="statusmuted" type="bool">0</attribute>
+        <attribute name="statusinvisiblerating" type="int16">6</attribute>
+        <attribute name="statusinvisibleimprovedrating" type="int16">6</attribute>
+        <attribute name="statusinvisibleimprovedduration" type="int16">-1</attribute>
+        <attribute name="statusinvisibleimproved" type="bool">0</attribute>
+        <attribute name="statusinvisibleduration" type="int16">-1</attribute>
+        <attribute name="statusinvisible" type="bool">0</attribute>
+        <attribute name="statusimmobilizedduration" type="int16">-1</attribute>
+        <attribute name="statusimmobilized" type="bool">0</attribute>
+        <attribute name="statushobbledduration" type="int16">-1</attribute>
+        <attribute name="statushobbled" type="bool">0</attribute>
+        <attribute name="statushazedduration" type="int16">-1</attribute>
+        <attribute name="statushazed" type="bool">0</attribute>
+        <attribute name="statusfrightenedduration" type="int16">-1</attribute>
+        <attribute name="statusfrightened" type="bool">0</attribute>
+        <attribute name="statusfatiguedrating" type="int16">1</attribute>
+        <attribute name="statusfatiguedduration" type="int16">-1</attribute>
+        <attribute name="statusfatigued" type="bool">0</attribute>
+        <attribute name="statusdisabledlegrating" type="int16">1</attribute>
+        <attribute name="statusdisabledlegduration" type="int16">-1</attribute>
+        <attribute name="statusdisabledleg" type="bool">0</attribute>
+        <attribute name="statusdisabledarmrating" type="int16">1</attribute>
+        <attribute name="statusdisabledarmduration" type="int16">-1</attribute>
+        <attribute name="statusdisabledarm" type="bool">0</attribute>
+        <attribute name="statusdeafenedrating" type="int16">1</attribute>
+        <attribute name="statusdeafenedduration" type="int16">-1</attribute>
+        <attribute name="statusdeafened" type="bool">0</attribute>
+        <attribute name="statusdazedduration" type="int16">-1</attribute>
+        <attribute name="statusdazed" type="bool">0</attribute>
+        <attribute name="statuscoverrating" type="int16">1</attribute>
+        <attribute name="statuscoverduration" type="int16">-1</attribute>
+        <attribute name="statuscover" type="bool">0</attribute>
+        <attribute name="statuscorrossiverating" type="int16">6</attribute>
+        <attribute name="statuscorrossiveduration" type="int16">-1</attribute>
+        <attribute name="statuscorrossive" type="bool">0</attribute>
+        <attribute name="statusconfusedrating" type="int16">6</attribute>
+        <attribute name="statusconfusedduration" type="int16">-1</attribute>
+        <attribute name="statusconfused" type="bool">0</attribute>
+        <attribute name="statuschilledduration" type="int16">-1</attribute>
+        <attribute name="statuschilled" type="bool">0</attribute>
+        <attribute name="statusburningrating" type="int16">6</attribute>
+        <attribute name="statusburningduration" type="int16">-1</attribute>
+        <attribute name="statusburning" type="bool">0</attribute>
+        <attribute name="statusblindedrating" type="int16">1</attribute>
+        <attribute name="statusblindedduration" type="int16">-1</attribute>
+        <attribute name="statusblinded" type="bool">0</attribute>
+        <attribute name="statusbackgroundrating" type="int16">1</attribute>
+        <attribute name="statusbackgroundduration" type="int16">-1</attribute>
+        <attribute name="statusbackground" type="bool">0</attribute>
+        <attribute name="skilltaskingspec" type="string"></attribute>
+        <attribute name="skilltasking" type="int16">0</attribute>
+        <attribute name="skillstealthspec" type="string"></attribute>
+        <attribute name="skillstealth" type="int16">0</attribute>
+        <attribute name="skillsorceryspec" type="string"></attribute>
+        <attribute name="skillsorcery" type="int16">0</attribute>
+        <attribute name="skillpilotspec" type="string"></attribute>
+        <attribute name="skillpilot" type="int16">0</attribute>
+        <attribute name="skillperceptionspec" type="string"></attribute>
+        <attribute name="skillperception" type="int16">1</attribute>
+        <attribute name="skilloutdoorsspec" type="string"></attribute>
+        <attribute name="skilloutdoors" type="int16">0</attribute>
+        <attribute name="skillotherspec" type="string"></attribute>
+        <attribute name="skillother" type="int16">0</attribute>
+        <attribute name="skillinfluencespec" type="string"></attribute>
+        <attribute name="skillinfluence" type="int16">0</attribute>
+        <attribute name="skillfirearmsspec" type="string"></attribute>
+        <attribute name="skillfirearms" type="int16">0</attribute>
+        <attribute name="skillexoticweaponsspec" type="string"></attribute>
+        <attribute name="skillexoticweapons" type="int16">0</attribute>
+        <attribute name="skillengineeringspec" type="string"></attribute>
+        <attribute name="skillengineering" type="int16">0</attribute>
+        <attribute name="skillenchantingspec" type="string"></attribute>
+        <attribute name="skillenchanting" type="int16">0</attribute>
+        <attribute name="skillelectronicsspec" type="string"></attribute>
+        <attribute name="skillelectronics" type="int16">0</attribute>
+        <attribute name="skillcrackingspec" type="string"></attribute>
+        <attribute name="skillcracking" type="int16">0</attribute>
+        <attribute name="skillconjuringspec" type="string"></attribute>
+        <attribute name="skillconjuring" type="int16">0</attribute>
+        <attribute name="skillconspec" type="string"></attribute>
+        <attribute name="skillcon" type="int16">0</attribute>
+        <attribute name="skillclosecombatspec" type="string"></attribute>
+        <attribute name="skillclosecombat" type="int16">1</attribute>
+        <attribute name="skillbiotechspec" type="string"></attribute>
+        <attribute name="skillbiotech" type="int16">0</attribute>
+        <attribute name="skillathleticsspec" type="string"></attribute>
+        <attribute name="skillathletics" type="int16">0</attribute>
+        <attribute name="skillastralspec" type="string"></attribute>
+        <attribute name="skillastral" type="int16">1</attribute>
+        <attribute name="services" type="int16">0</attribute>
+        <attribute name="rcc" type="int16">0</attribute>
+        <attribute name="rating" type="int16">5</attribute>
+        <attribute name="professionalrating" type="int16">0</attribute>
+        <attribute name="physicalminor" type="int16">3</attribute>
+        <attribute name="physicalmajor" type="int16">1</attribute>
+        <attribute name="physicalinitiative" type="int16">0</attribute>
+        <attribute name="physicaldice" type="int16">2</attribute>
+        <attribute name="physicalcondition" type="int16">0</attribute>
+        <attribute name="overwatchscore" type="int16">0</attribute>
+        <attribute name="overflow" type="int16">0</attribute>
+        <attribute name="notes" type="string"></attribute>
+        <attribute name="move" type="string">5/10/+3</attribute>
+        <attribute name="metatype" type="int16">0</attribute>
+        <attribute name="matrixsleaze" type="int16">0</attribute>
+        <attribute name="matrixminor" type="int16">4</attribute>
+        <attribute name="matrixmajor" type="int16">1</attribute>
+        <attribute name="matrixinitiative" type="int16">0</attribute>
+        <attribute name="matrixfirewall" type="int16">1</attribute>
+        <attribute name="matrixdice" type="int16">3</attribute>
+        <attribute name="matrixdevicerating" type="int16">1</attribute>
+        <attribute name="matrixdefenserating" type="int16">0</attribute>
+        <attribute name="matrixdataprocessing" type="int16">1</attribute>
+        <attribute name="matrixcondition" type="int16">0</attribute>
+        <attribute name="matrixattackrating" type="int16">0</attribute>
+        <attribute name="matrixattack" type="int16">0</attribute>
+        <attribute name="initiategrade" type="int16">0</attribute>
+        <attribute name="hitssurprise" type="int16">4</attribute>
+        <attribute name="hitsstealth" type="int16">0</attribute>
+        <attribute name="hitsperception" type="int16">3</attribute>
+        <attribute name="detailstring" type="binary">YnBsaXN0MDDUAQIDBAUGBwpYJHZlcnNpb25ZJGFyY2hpdmVyVCR0b3BYJG9iamVjdHMSAAGGoF8Q
+D05TS2V5ZWRBcmNoaXZlctEICVRyb290gAGjCwwRVSRudWxs0g0ODxBXTlMuZGF0YVYkY2xhc3NPEQQse1xydGYxXGFuc2lcYW5zaWNwZzEyNTJcY29jb2FydGYyNTEzClxjb2NvYXRleHRzY2FsaW5nMFxjb2NvYXBsYXRmb3JtMHtcZm9udHRibFxmMFxmc3dpc3NcZmNoYXJzZXQwIEhlbHZldGljYS1Cb2xkO1xmMVxmc3dpc3NcZmNoYXJzZXQwIEhlbHZldGljYTt9CntcY29sb3J0Ymw7XHJlZDI1NVxncmVlbjI1NVxibHVlMjU1O1xyZWQyMjVcZ3JlZW4yMzJcYmx1ZTI0MTtccmVkMjU1XGdyZWVuMjU1XGJsdWUyNTU7fQp7XCpcZXhwYW5kZWRjb2xvcnRibDs7XGNzc3JnYlxjOTA1ODhcYzkyOTQxXGM5NTY4NjtcY3NzcmdiXGMxMDAwMDBcYzEwMDAwMFxjMTAwMDAwXGNuYW1lIHRleHRCYWNrZ3JvdW5kQ29sb3I7fQpcZGVmdGFiNzIwClxwYXJkXHBhcmRlZnRhYjcyMFxzYTI0MFxwYXJ0aWdodGVuZmFjdG9yMAoKXGYwXGJcZnMzMiBcY2YyIFxjYjMgQ2xhdy9iaXRlIFtEViAoRm9yY2UvMilQLCBBdHRhY2sgUmF0aW5ncyAoRiB4IDIpL1wnOTcvXCc5Ny9cJzk3L1wnOTddIFwKXHBhcmRcdHg3MjBcdHgxNDQwXHR4MjE2MFx0eDI4ODBcdHgzNjAwXHR4NDMyMFx0eDUwNDBcdHg1NzYwXHR4NjQ4MFx0eDcyMDBcdHg3OTIwXHR4ODY0MFxwYXJkZWZ0YWI3MjBccGFyZGlybmF0dXJhbFxwYXJ0aWdodGVuZmFjdG9yMApcY2YyIE9wdGlvbmFsIFBvd2VycyAoMSBwZXIgMyBGb3JjZSAtIHJvdW5kIGRvd24pClxmczI4IFwKXHBhcmRcdHg3MjBcdHgxNDQwXHR4MjE2MFx0eDI4ODBcdHgzNjAwXHR4NDMyMFx0eDUwNDBcdHg1NzYwXHR4NjQ4MFx0eDcyMDBcdHg3OTIwXHR4ODY0MFxwYXJkZWZ0YWI3MjBccGFyZGlybmF0dXJhbFxwYXJ0aWdodGVuZmFjdG9yMAoKXGYxXGIwIFxjZjIgQ29uY2VhbG1lbnQKXGZzMjQgXGNmMiBcCgpcZnMyOCBcY2YyIENvbmZ1c2lvbgpcZnMyNCBcY2YyIFwKClxmczI4IFxjZjIgR3VhcmQKXGZzMjQgXGNmMiBcCgpcZnMyOCBcY2YyIE5hdHVyYWwgV2VhcG9uIChDbGF3cy9CaXRlKQpcZnMyNCBcY2YyIFwKClxmczI4IFxjZjIgTm94aW91cyBCcmVhdGgKXGZzMjQgXGNmMiBcCgpcZnMyOCBcY2YyIFNlYXJjaApcZnMyNCBcY2YyIFwKClxmczI4IFxjZjIgVmVub219gALSEhMUFVokY2xhc3NuYW1lWCRjbGFzc2VzXU5TTXV0YWJsZURhdGGjFBYXVk5TRGF0YVhOU09iamVjdAAIABEAGgAkACkAMgA3AEkATABRAFMAVwBdAGIAagBxBKEEowSoBLMEvATKBM4E1QAAAAAAAAIBAAAAAAAAABgAAAAAAAAAAAAAAAAAAATe
+</attribute>
+        <attribute name="defenserating" type="int16">0</attribute>
+        <attribute name="cyberjack" type="int16">0</attribute>
+        <attribute name="cyberdeck" type="int16">0</attribute>
+        <attribute name="currentspeed" type="int32">0</attribute>
+        <attribute name="currentmode" type="int16">0</attribute>
+        <attribute name="currentminor" type="int16">3</attribute>
+        <attribute name="currentmajor" type="int16">1</attribute>
+        <attribute name="currentinit" type="int16">14</attribute>
+        <attribute name="currentedge" type="int16">1</attribute>
+        <attribute name="currentdice" type="int16">2</attribute>
+        <attribute name="commlink" type="int16">0</attribute>
+        <attribute name="charname" type="string">Beast Spirit</attribute>
+        <attribute name="boxesstun" type="int16">8</attribute>
+        <attribute name="boxesphysical" type="int16">8</attribute>
+        <attribute name="boxesmatrix" type="int16">8</attribute>
+        <attribute name="attrwillpower" type="int16">0</attribute>
+        <attribute name="attrstrength" type="int16">2</attribute>
+        <attribute name="attrreaction" type="int16">0</attribute>
+        <attribute name="attrmagic" type="int16">0</attribute>
+        <attribute name="attrlogic" type="int16">0</attribute>
+        <attribute name="attrintuition" type="int16">0</attribute>
+        <attribute name="attressence" type="float">0</attribute>
+        <attribute name="attredge" type="int16">0</attribute>
+        <attribute name="attrdrain" type="int16">0</attribute>
+        <attribute name="attrcharisma" type="int16">0</attribute>
+        <attribute name="attrbody" type="int16">2</attribute>
+        <attribute name="attragility" type="int16">1</attribute>
+        <attribute name="astralminor" type="int16">4</attribute>
+        <attribute name="astralmajor" type="int16">1</attribute>
+        <attribute name="astralinitiative" type="int16">0</attribute>
+        <attribute name="astraldice" type="int16">3</attribute>
+        <attribute name="actortype" type="int16">2</attribute>
+        <attribute name="actorcategory" type="int16">0</attribute>
+        <relationship name="adeptpowers" type="0/0" destination="SR6ACTORADEPTPOWER"></relationship>
+        <relationship name="augs" type="0/0" destination="SR6ACTORAUG"></relationship>
+        <relationship name="complexforms" type="0/0" destination="SR6ACTORCOMPLEXFORM"></relationship>
+        <relationship name="echoes" type="0/0" destination="SR6ACTORECHO"></relationship>
+        <relationship name="metamagics" type="0/0" destination="SR6ACTORMETAMAGIC"></relationship>
+        <relationship name="powers" type="0/0" destination="SR6ACTORPOWER" idrefs="z119 z121 z143 z135 z139 z115 z152"></relationship>
+        <relationship name="programs" type="0/0" destination="SR6ACTORPROGRAM"></relationship>
+        <relationship name="qualities" type="0/0" destination="SR6ACTORQUALITY"></relationship>
+        <relationship name="spells" type="0/0" destination="SR6ACTORSPELL"></relationship>
+        <relationship name="weapons" type="0/0" destination="SR6ACTORWEAPON"></relationship>
+    </object>
+    <object type="SR6ACTOR" id="z103">
+        <attribute name="vehtopspeed" type="int16">0</attribute>
+        <attribute name="vehspeedinterval" type="int16">0</attribute>
+        <attribute name="vehsensor" type="int16">0</attribute>
+        <attribute name="vehseat" type="int16">0</attribute>
+        <attribute name="vehpilot" type="int16">0</attribute>
+        <attribute name="vehhandling" type="string"></attribute>
+        <attribute name="vehbody" type="int16">0</attribute>
+        <attribute name="veharmor" type="int16">0</attribute>
+        <attribute name="vehaccel" type="int16">0</attribute>
+        <attribute name="submersiongrade" type="int16">0</attribute>
+        <attribute name="stuncondition" type="int16">0</attribute>
+        <attribute name="statuszappedduration" type="int16">-1</attribute>
+        <attribute name="statuszapped" type="bool">0</attribute>
+        <attribute name="statuswetduration" type="int16">-1</attribute>
+        <attribute name="statuswet" type="bool">0</attribute>
+        <attribute name="statusstilledduration" type="int16">-1</attribute>
+        <attribute name="statusstilled" type="bool">0</attribute>
+        <attribute name="statussilentrating" type="int16">6</attribute>
+        <attribute name="statussilentimprovedrating" type="int16">6</attribute>
+        <attribute name="statussilentimprovedduration" type="int16">-1</attribute>
+        <attribute name="statussilentimproved" type="bool">0</attribute>
+        <attribute name="statussilentduration" type="int16">-1</attribute>
+        <attribute name="statussilent" type="bool">0</attribute>
+        <attribute name="statusproneduration" type="int16">-1</attribute>
+        <attribute name="statusprone" type="bool">0</attribute>
+        <attribute name="statuspoisonedrating" type="int16">6</attribute>
+        <attribute name="statuspoisonedduration" type="int16">-1</attribute>
+        <attribute name="statuspoisoned" type="bool">0</attribute>
+        <attribute name="statuspetrifiedduration" type="int16">-1</attribute>
+        <attribute name="statuspetrified" type="bool">0</attribute>
+        <attribute name="statuspanickedduration" type="int16">-1</attribute>
+        <attribute name="statuspanicked" type="bool">0</attribute>
+        <attribute name="statusoffbalanceduration" type="int16">-1</attribute>
+        <attribute name="statusoffbalance" type="bool">0</attribute>
+        <attribute name="statusnoiserating" type="int16">1</attribute>
+        <attribute name="statusnoiseduration" type="int16">-1</attribute>
+        <attribute name="statusnoise" type="bool">0</attribute>
+        <attribute name="statusnauseatedduration" type="int16">-1</attribute>
+        <attribute name="statusnauseated" type="bool">0</attribute>
+        <attribute name="statusmutedduration" type="int16">-1</attribute>
+        <attribute name="statusmuted" type="bool">0</attribute>
+        <attribute name="statusinvisiblerating" type="int16">6</attribute>
+        <attribute name="statusinvisibleimprovedrating" type="int16">6</attribute>
+        <attribute name="statusinvisibleimprovedduration" type="int16">-1</attribute>
+        <attribute name="statusinvisibleimproved" type="bool">0</attribute>
+        <attribute name="statusinvisibleduration" type="int16">-1</attribute>
+        <attribute name="statusinvisible" type="bool">0</attribute>
+        <attribute name="statusimmobilizedduration" type="int16">-1</attribute>
+        <attribute name="statusimmobilized" type="bool">0</attribute>
+        <attribute name="statushobbledduration" type="int16">-1</attribute>
+        <attribute name="statushobbled" type="bool">0</attribute>
+        <attribute name="statushazedduration" type="int16">-1</attribute>
+        <attribute name="statushazed" type="bool">0</attribute>
+        <attribute name="statusfrightenedduration" type="int16">-1</attribute>
+        <attribute name="statusfrightened" type="bool">0</attribute>
+        <attribute name="statusfatiguedrating" type="int16">1</attribute>
+        <attribute name="statusfatiguedduration" type="int16">-1</attribute>
+        <attribute name="statusfatigued" type="bool">0</attribute>
+        <attribute name="statusdisabledlegrating" type="int16">1</attribute>
+        <attribute name="statusdisabledlegduration" type="int16">-1</attribute>
+        <attribute name="statusdisabledleg" type="bool">0</attribute>
+        <attribute name="statusdisabledarmrating" type="int16">1</attribute>
+        <attribute name="statusdisabledarmduration" type="int16">-1</attribute>
+        <attribute name="statusdisabledarm" type="bool">0</attribute>
+        <attribute name="statusdeafenedrating" type="int16">1</attribute>
+        <attribute name="statusdeafenedduration" type="int16">-1</attribute>
+        <attribute name="statusdeafened" type="bool">0</attribute>
+        <attribute name="statusdazedduration" type="int16">-1</attribute>
+        <attribute name="statusdazed" type="bool">0</attribute>
+        <attribute name="statuscoverrating" type="int16">1</attribute>
+        <attribute name="statuscoverduration" type="int16">-1</attribute>
+        <attribute name="statuscover" type="bool">0</attribute>
+        <attribute name="statuscorrossiverating" type="int16">6</attribute>
+        <attribute name="statuscorrossiveduration" type="int16">-1</attribute>
+        <attribute name="statuscorrossive" type="bool">0</attribute>
+        <attribute name="statusconfusedrating" type="int16">6</attribute>
+        <attribute name="statusconfusedduration" type="int16">-1</attribute>
+        <attribute name="statusconfused" type="bool">0</attribute>
+        <attribute name="statuschilledduration" type="int16">-1</attribute>
+        <attribute name="statuschilled" type="bool">0</attribute>
+        <attribute name="statusburningrating" type="int16">6</attribute>
+        <attribute name="statusburningduration" type="int16">-1</attribute>
+        <attribute name="statusburning" type="bool">0</attribute>
+        <attribute name="statusblindedrating" type="int16">1</attribute>
+        <attribute name="statusblindedduration" type="int16">-1</attribute>
+        <attribute name="statusblinded" type="bool">0</attribute>
+        <attribute name="statusbackgroundrating" type="int16">1</attribute>
+        <attribute name="statusbackgroundduration" type="int16">-1</attribute>
+        <attribute name="statusbackground" type="bool">0</attribute>
+        <attribute name="skilltaskingspec" type="string"></attribute>
+        <attribute name="skilltasking" type="int16">0</attribute>
+        <attribute name="skillstealthspec" type="string"></attribute>
+        <attribute name="skillstealth" type="int16">0</attribute>
+        <attribute name="skillsorceryspec" type="string"></attribute>
+        <attribute name="skillsorcery" type="int16">0</attribute>
+        <attribute name="skillpilotspec" type="string"></attribute>
+        <attribute name="skillpilot" type="int16">0</attribute>
+        <attribute name="skillperceptionspec" type="string"></attribute>
+        <attribute name="skillperception" type="int16">1</attribute>
+        <attribute name="skilloutdoorsspec" type="string"></attribute>
+        <attribute name="skilloutdoors" type="int16">0</attribute>
+        <attribute name="skillotherspec" type="string"></attribute>
+        <attribute name="skillother" type="int16">0</attribute>
+        <attribute name="skillinfluencespec" type="string"></attribute>
+        <attribute name="skillinfluence" type="int16">0</attribute>
+        <attribute name="skillfirearmsspec" type="string"></attribute>
+        <attribute name="skillfirearms" type="int16">0</attribute>
+        <attribute name="skillexoticweaponsspec" type="string"></attribute>
+        <attribute name="skillexoticweapons" type="int16">1</attribute>
+        <attribute name="skillengineeringspec" type="string"></attribute>
+        <attribute name="skillengineering" type="int16">0</attribute>
+        <attribute name="skillenchantingspec" type="string"></attribute>
+        <attribute name="skillenchanting" type="int16">0</attribute>
+        <attribute name="skillelectronicsspec" type="string"></attribute>
+        <attribute name="skillelectronics" type="int16">0</attribute>
+        <attribute name="skillcrackingspec" type="string"></attribute>
+        <attribute name="skillcracking" type="int16">0</attribute>
+        <attribute name="skillconjuringspec" type="string"></attribute>
+        <attribute name="skillconjuring" type="int16">0</attribute>
+        <attribute name="skillconspec" type="string"></attribute>
+        <attribute name="skillcon" type="int16">0</attribute>
+        <attribute name="skillclosecombatspec" type="string"></attribute>
+        <attribute name="skillclosecombat" type="int16">1</attribute>
+        <attribute name="skillbiotechspec" type="string"></attribute>
+        <attribute name="skillbiotech" type="int16">0</attribute>
+        <attribute name="skillathleticsspec" type="string"></attribute>
+        <attribute name="skillathletics" type="int16">0</attribute>
+        <attribute name="skillastralspec" type="string"></attribute>
+        <attribute name="skillastral" type="int16">1</attribute>
+        <attribute name="services" type="int16">0</attribute>
+        <attribute name="rcc" type="int16">0</attribute>
+        <attribute name="rating" type="int16">5</attribute>
+        <attribute name="professionalrating" type="int16">0</attribute>
+        <attribute name="physicalminor" type="int16">3</attribute>
+        <attribute name="physicalmajor" type="int16">1</attribute>
+        <attribute name="physicalinitiative" type="int16">-1</attribute>
+        <attribute name="physicaldice" type="int16">2</attribute>
+        <attribute name="physicalcondition" type="int16">0</attribute>
+        <attribute name="overwatchscore" type="int16">0</attribute>
+        <attribute name="overflow" type="int16">0</attribute>
+        <attribute name="notes" type="string"></attribute>
+        <attribute name="move" type="string">5/10/+1</attribute>
+        <attribute name="metatype" type="int16">0</attribute>
+        <attribute name="matrixsleaze" type="int16">0</attribute>
+        <attribute name="matrixminor" type="int16">4</attribute>
+        <attribute name="matrixmajor" type="int16">1</attribute>
+        <attribute name="matrixinitiative" type="int16">0</attribute>
+        <attribute name="matrixfirewall" type="int16">0</attribute>
+        <attribute name="matrixdice" type="int16">3</attribute>
+        <attribute name="matrixdevicerating" type="int16">0</attribute>
+        <attribute name="matrixdefenserating" type="int16">0</attribute>
+        <attribute name="matrixdataprocessing" type="int16">0</attribute>
+        <attribute name="matrixcondition" type="int16">0</attribute>
+        <attribute name="matrixattackrating" type="int16">0</attribute>
+        <attribute name="matrixattack" type="int16">0</attribute>
+        <attribute name="initiategrade" type="int16">0</attribute>
+        <attribute name="hitssurprise" type="int16">3</attribute>
+        <attribute name="hitsstealth" type="int16">1</attribute>
+        <attribute name="hitsperception" type="int16">1</attribute>
+        <attribute name="detailstring" type="binary">YnBsaXN0MDDUAQIDBAUGBwpYJHZlcnNpb25ZJGFyY2hpdmVyVCR0b3BYJG9iamVjdHMSAAGGoF8Q
+D05TS2V5ZWRBcmNoaXZlctEICVRyb290gAGjCwwRVSRudWxs0g0ODxBXTlMuZGF0YVYkY2xhc3NPEQPwe1xydGYxXGFuc2lcYW5zaWNwZzEyNTJcY29jb2FydGYyNTEzClxjb2NvYXRleHRzY2FsaW5nMFxjb2NvYXBsYXRmb3JtMHtcZm9udHRibFxmMFxmc3dpc3NcZmNoYXJzZXQwIEhlbHZldGljYS1Cb2xkO1xmMVxmc3dpc3NcZmNoYXJzZXQwIEhlbHZldGljYTt9CntcY29sb3J0Ymw7XHJlZDI1NVxncmVlbjI1NVxibHVlMjU1O1xyZWQyMjVcZ3JlZW4yMzJcYmx1ZTI0MTtccmVkMjU1XGdyZWVuMjU1XGJsdWUyNTU7fQp7XCpcZXhwYW5kZWRjb2xvcnRibDs7XGNzc3JnYlxjOTA1ODhcYzkyOTQxXGM5NTY4NjtcY3NzcmdiXGMxMDAwMDBcYzEwMDAwMFxjMTAwMDAwXGNuYW1lIHRleHRCYWNrZ3JvdW5kQ29sb3I7fQpcZGVmdGFiNzIwClxwYXJkXHBhcmRlZnRhYjcyMFxzYTI0MFxwYXJ0aWdodGVuZmFjdG9yMAoKXGYwXGJcZnMzMiBcY2YyIFxjYjMgRWxlbWVudGFsIEF0dGFjayBbRFYgKEYpUCwgQXR0YWNrIFJhdGluZ3MgKEYgeCAyKS8oRiB4IDIpIFwnOTYyLyhGIHggMikgXCc5NjgvIChGIHggMikgXCc5NjEwL1wnOTddIFwKXHBhcmRcdHg3MjBcdHgxNDQwXHR4MjE2MFx0eDI4ODBcdHgzNjAwXHR4NDMyMFx0eDUwNDBcdHg1NzYwXHR4NjQ4MFx0eDcyMDBcdHg3OTIwXHR4ODY0MFxwYXJkZWZ0YWI3MjBccGFyZGlybmF0dXJhbFxwYXJ0aWdodGVuZmFjdG9yMApcY2YyIE9wdGlvbmFsIFBvd2VycyAoMSBwZXIgMyBGb3JjZSAtIHJvdW5kIGRvd24pXApccGFyZFx0eDcyMFx0eDE0NDBcdHgyMTYwXHR4Mjg4MFx0eDM2MDBcdHg0MzIwXHR4NTA0MFx0eDU3NjBcdHg2NDgwXHR4NzIwMFx0eDc5MjBcdHg4NjQwXHBhcmRlZnRhYjcyMFxwYXJkaXJuYXR1cmFsXHBhcnRpZ2h0ZW5mYWN0b3IwCgpcZjFcYjBcZnMyOCBcY2YyIENvbmNlYWxtZW50ClxmczI0IFxjZjIgXAoKXGZzMjggXGNmMiBDb25mdXNpb24KXGZzMjQgXGNmMiBcCgpcZnMyOCBcY2YyIEVsZW1lbnRhbCBBdHRhY2sgKENoZW1pY2FsKQpcZnMyNCBcY2YyIFwKClxmczI4IFxjZjIgRW5ndWxmIChFYXJ0aClcCkZlYXJ9gALSEhMUFVokY2xhc3NuYW1lWCRjbGFzc2VzXU5TTXV0YWJsZURhdGGjFBYXVk5TRGF0YVhOU09iamVjdAAIABEAGgAkACkAMgA3AEkATABRAFMAVwBdAGIAagBxBGUEZwRsBHcEgASOBJIEmQAAAAAAAAIBAAAAAAAAABgAAAAAAAAAAAAAAAAAAASi
+</attribute>
+        <attribute name="defenserating" type="int16">0</attribute>
+        <attribute name="cyberjack" type="int16">0</attribute>
+        <attribute name="cyberdeck" type="int16">0</attribute>
+        <attribute name="currentspeed" type="int32">0</attribute>
+        <attribute name="currentmode" type="int16">0</attribute>
+        <attribute name="currentminor" type="int16">3</attribute>
+        <attribute name="currentmajor" type="int16">1</attribute>
+        <attribute name="currentinit" type="int16">18</attribute>
+        <attribute name="currentedge" type="int16">1</attribute>
+        <attribute name="currentdice" type="int16">2</attribute>
+        <attribute name="commlink" type="int16">0</attribute>
+        <attribute name="charname" type="string">Earth Spirit</attribute>
+        <attribute name="boxesstun" type="int16">8</attribute>
+        <attribute name="boxesphysical" type="int16">8</attribute>
+        <attribute name="boxesmatrix" type="int16">8</attribute>
+        <attribute name="attrwillpower" type="int16">0</attribute>
+        <attribute name="attrstrength" type="int16">4</attribute>
+        <attribute name="attrreaction" type="int16">-1</attribute>
+        <attribute name="attrmagic" type="int16">0</attribute>
+        <attribute name="attrlogic" type="int16">-1</attribute>
+        <attribute name="attrintuition" type="int16">0</attribute>
+        <attribute name="attressence" type="float">0</attribute>
+        <attribute name="attredge" type="int16">0</attribute>
+        <attribute name="attrdrain" type="int16">0</attribute>
+        <attribute name="attrcharisma" type="int16">0</attribute>
+        <attribute name="attrbody" type="int16">4</attribute>
+        <attribute name="attragility" type="int16">-2</attribute>
+        <attribute name="astralminor" type="int16">4</attribute>
+        <attribute name="astralmajor" type="int16">1</attribute>
+        <attribute name="astralinitiative" type="int16">0</attribute>
+        <attribute name="astraldice" type="int16">3</attribute>
+        <attribute name="actortype" type="int16">2</attribute>
+        <attribute name="actorcategory" type="int16">0</attribute>
+        <relationship name="adeptpowers" type="0/0" destination="SR6ACTORADEPTPOWER"></relationship>
+        <relationship name="augs" type="0/0" destination="SR6ACTORAUG"></relationship>
+        <relationship name="complexforms" type="0/0" destination="SR6ACTORCOMPLEXFORM"></relationship>
+        <relationship name="echoes" type="0/0" destination="SR6ACTORECHO"></relationship>
+        <relationship name="metamagics" type="0/0" destination="SR6ACTORMETAMAGIC"></relationship>
+        <relationship name="powers" type="0/0" destination="SR6ACTORPOWER" idrefs="z113 z157 z110 z141 z128 z122 z144"></relationship>
+        <relationship name="programs" type="0/0" destination="SR6ACTORPROGRAM"></relationship>
+        <relationship name="qualities" type="0/0" destination="SR6ACTORQUALITY"></relationship>
+        <relationship name="spells" type="0/0" destination="SR6ACTORSPELL"></relationship>
+        <relationship name="weapons" type="0/0" destination="SR6ACTORWEAPON"></relationship>
+    </object>
+    <object type="SR6ACTOR" id="z104">
+        <attribute name="vehtopspeed" type="int16">0</attribute>
+        <attribute name="vehspeedinterval" type="int16">0</attribute>
+        <attribute name="vehsensor" type="int16">0</attribute>
+        <attribute name="vehseat" type="int16">0</attribute>
+        <attribute name="vehpilot" type="int16">0</attribute>
+        <attribute name="vehhandling" type="string"></attribute>
+        <attribute name="vehbody" type="int16">0</attribute>
+        <attribute name="veharmor" type="int16">0</attribute>
+        <attribute name="vehaccel" type="int16">0</attribute>
+        <attribute name="submersiongrade" type="int16">0</attribute>
+        <attribute name="stuncondition" type="int16">0</attribute>
+        <attribute name="statuszappedduration" type="int16">-1</attribute>
+        <attribute name="statuszapped" type="bool">0</attribute>
+        <attribute name="statuswetduration" type="int16">-1</attribute>
+        <attribute name="statuswet" type="bool">0</attribute>
+        <attribute name="statusstilledduration" type="int16">-1</attribute>
+        <attribute name="statusstilled" type="bool">0</attribute>
+        <attribute name="statussilentrating" type="int16">6</attribute>
+        <attribute name="statussilentimprovedrating" type="int16">6</attribute>
+        <attribute name="statussilentimprovedduration" type="int16">-1</attribute>
+        <attribute name="statussilentimproved" type="bool">0</attribute>
+        <attribute name="statussilentduration" type="int16">-1</attribute>
+        <attribute name="statussilent" type="bool">0</attribute>
+        <attribute name="statusproneduration" type="int16">-1</attribute>
+        <attribute name="statusprone" type="bool">0</attribute>
+        <attribute name="statuspoisonedrating" type="int16">6</attribute>
+        <attribute name="statuspoisonedduration" type="int16">-1</attribute>
+        <attribute name="statuspoisoned" type="bool">0</attribute>
+        <attribute name="statuspetrifiedduration" type="int16">-1</attribute>
+        <attribute name="statuspetrified" type="bool">0</attribute>
+        <attribute name="statuspanickedduration" type="int16">-1</attribute>
+        <attribute name="statuspanicked" type="bool">0</attribute>
+        <attribute name="statusoffbalanceduration" type="int16">-1</attribute>
+        <attribute name="statusoffbalance" type="bool">0</attribute>
+        <attribute name="statusnoiserating" type="int16">1</attribute>
+        <attribute name="statusnoiseduration" type="int16">-1</attribute>
+        <attribute name="statusnoise" type="bool">0</attribute>
+        <attribute name="statusnauseatedduration" type="int16">-1</attribute>
+        <attribute name="statusnauseated" type="bool">0</attribute>
+        <attribute name="statusmutedduration" type="int16">-1</attribute>
+        <attribute name="statusmuted" type="bool">0</attribute>
+        <attribute name="statusinvisiblerating" type="int16">6</attribute>
+        <attribute name="statusinvisibleimprovedrating" type="int16">6</attribute>
+        <attribute name="statusinvisibleimprovedduration" type="int16">-1</attribute>
+        <attribute name="statusinvisibleimproved" type="bool">0</attribute>
+        <attribute name="statusinvisibleduration" type="int16">-1</attribute>
+        <attribute name="statusinvisible" type="bool">0</attribute>
+        <attribute name="statusimmobilizedduration" type="int16">-1</attribute>
+        <attribute name="statusimmobilized" type="bool">0</attribute>
+        <attribute name="statushobbledduration" type="int16">-1</attribute>
+        <attribute name="statushobbled" type="bool">0</attribute>
+        <attribute name="statushazedduration" type="int16">-1</attribute>
+        <attribute name="statushazed" type="bool">0</attribute>
+        <attribute name="statusfrightenedduration" type="int16">-1</attribute>
+        <attribute name="statusfrightened" type="bool">0</attribute>
+        <attribute name="statusfatiguedrating" type="int16">1</attribute>
+        <attribute name="statusfatiguedduration" type="int16">-1</attribute>
+        <attribute name="statusfatigued" type="bool">0</attribute>
+        <attribute name="statusdisabledlegrating" type="int16">1</attribute>
+        <attribute name="statusdisabledlegduration" type="int16">-1</attribute>
+        <attribute name="statusdisabledleg" type="bool">0</attribute>
+        <attribute name="statusdisabledarmrating" type="int16">1</attribute>
+        <attribute name="statusdisabledarmduration" type="int16">-1</attribute>
+        <attribute name="statusdisabledarm" type="bool">0</attribute>
+        <attribute name="statusdeafenedrating" type="int16">1</attribute>
+        <attribute name="statusdeafenedduration" type="int16">-1</attribute>
+        <attribute name="statusdeafened" type="bool">0</attribute>
+        <attribute name="statusdazedduration" type="int16">-1</attribute>
+        <attribute name="statusdazed" type="bool">0</attribute>
+        <attribute name="statuscoverrating" type="int16">1</attribute>
+        <attribute name="statuscoverduration" type="int16">-1</attribute>
+        <attribute name="statuscover" type="bool">0</attribute>
+        <attribute name="statuscorrossiverating" type="int16">6</attribute>
+        <attribute name="statuscorrossiveduration" type="int16">-1</attribute>
+        <attribute name="statuscorrossive" type="bool">0</attribute>
+        <attribute name="statusconfusedrating" type="int16">6</attribute>
+        <attribute name="statusconfusedduration" type="int16">-1</attribute>
+        <attribute name="statusconfused" type="bool">0</attribute>
+        <attribute name="statuschilledduration" type="int16">-1</attribute>
+        <attribute name="statuschilled" type="bool">0</attribute>
+        <attribute name="statusburningrating" type="int16">6</attribute>
+        <attribute name="statusburningduration" type="int16">-1</attribute>
+        <attribute name="statusburning" type="bool">0</attribute>
+        <attribute name="statusblindedrating" type="int16">1</attribute>
+        <attribute name="statusblindedduration" type="int16">-1</attribute>
+        <attribute name="statusblinded" type="bool">0</attribute>
+        <attribute name="statusbackgroundrating" type="int16">1</attribute>
+        <attribute name="statusbackgroundduration" type="int16">-1</attribute>
+        <attribute name="statusbackground" type="bool">0</attribute>
+        <attribute name="skilltaskingspec" type="string"></attribute>
+        <attribute name="skilltasking" type="int16">0</attribute>
+        <attribute name="skillstealthspec" type="string"></attribute>
+        <attribute name="skillstealth" type="int16">0</attribute>
+        <attribute name="skillsorceryspec" type="string"></attribute>
+        <attribute name="skillsorcery" type="int16">0</attribute>
+        <attribute name="skillpilotspec" type="string"></attribute>
+        <attribute name="skillpilot" type="int16">0</attribute>
+        <attribute name="skillperceptionspec" type="string"></attribute>
+        <attribute name="skillperception" type="int16">1</attribute>
+        <attribute name="skilloutdoorsspec" type="string"></attribute>
+        <attribute name="skilloutdoors" type="int16">0</attribute>
+        <attribute name="skillotherspec" type="string"></attribute>
+        <attribute name="skillother" type="int16">0</attribute>
+        <attribute name="skillinfluencespec" type="string"></attribute>
+        <attribute name="skillinfluence" type="int16">0</attribute>
+        <attribute name="skillfirearmsspec" type="string"></attribute>
+        <attribute name="skillfirearms" type="int16">0</attribute>
+        <attribute name="skillexoticweaponsspec" type="string"></attribute>
+        <attribute name="skillexoticweapons" type="int16">1</attribute>
+        <attribute name="skillengineeringspec" type="string"></attribute>
+        <attribute name="skillengineering" type="int16">0</attribute>
+        <attribute name="skillenchantingspec" type="string"></attribute>
+        <attribute name="skillenchanting" type="int16">0</attribute>
+        <attribute name="skillelectronicsspec" type="string"></attribute>
+        <attribute name="skillelectronics" type="int16">0</attribute>
+        <attribute name="skillcrackingspec" type="string"></attribute>
+        <attribute name="skillcracking" type="int16">0</attribute>
+        <attribute name="skillconjuringspec" type="string"></attribute>
+        <attribute name="skillconjuring" type="int16">0</attribute>
+        <attribute name="skillconspec" type="string"></attribute>
+        <attribute name="skillcon" type="int16">0</attribute>
+        <attribute name="skillclosecombatspec" type="string"></attribute>
+        <attribute name="skillclosecombat" type="int16">1</attribute>
+        <attribute name="skillbiotechspec" type="string"></attribute>
+        <attribute name="skillbiotech" type="int16">0</attribute>
+        <attribute name="skillathleticsspec" type="string"></attribute>
+        <attribute name="skillathletics" type="int16">1</attribute>
+        <attribute name="skillastralspec" type="string"></attribute>
+        <attribute name="skillastral" type="int16">1</attribute>
+        <attribute name="services" type="int16">0</attribute>
+        <attribute name="rcc" type="int16">0</attribute>
+        <attribute name="rating" type="int16">5</attribute>
+        <attribute name="professionalrating" type="int16">0</attribute>
+        <attribute name="physicalminor" type="int16">3</attribute>
+        <attribute name="physicalmajor" type="int16">1</attribute>
+        <attribute name="physicalinitiative" type="int16">4</attribute>
+        <attribute name="physicaldice" type="int16">2</attribute>
+        <attribute name="physicalcondition" type="int16">0</attribute>
+        <attribute name="overwatchscore" type="int16">0</attribute>
+        <attribute name="overflow" type="int16">0</attribute>
+        <attribute name="move" type="string">5/10/+5</attribute>
+        <attribute name="metatype" type="int16">0</attribute>
+        <attribute name="matrixsleaze" type="int16">0</attribute>
+        <attribute name="matrixminor" type="int16">4</attribute>
+        <attribute name="matrixmajor" type="int16">1</attribute>
+        <attribute name="matrixinitiative" type="int16">0</attribute>
+        <attribute name="matrixfirewall" type="int16">1</attribute>
+        <attribute name="matrixdice" type="int16">3</attribute>
+        <attribute name="matrixdevicerating" type="int16">1</attribute>
+        <attribute name="matrixdefenserating" type="int16">0</attribute>
+        <attribute name="matrixdataprocessing" type="int16">1</attribute>
+        <attribute name="matrixcondition" type="int16">0</attribute>
+        <attribute name="matrixattackrating" type="int16">0</attribute>
+        <attribute name="matrixattack" type="int16">0</attribute>
+        <attribute name="initiategrade" type="int16">0</attribute>
+        <attribute name="hitssurprise" type="int16">5</attribute>
+        <attribute name="hitsstealth" type="int16">1</attribute>
+        <attribute name="hitsperception" type="int16">4</attribute>
+        <attribute name="detailstring" type="binary">YnBsaXN0MDDUAQIDBAUGBwpYJHZlcnNpb25ZJGFyY2hpdmVyVCR0b3BYJG9iamVjdHMSAAGGoF8Q
+D05TS2V5ZWRBcmNoaXZlctEICVRyb290gAGjCwwRVSRudWxs0g0ODxBXTlMuZGF0YVYkY2xhc3NPEQQNe1xydGYxXGFuc2lcYW5zaWNwZzEyNTJcY29jb2FydGYyNTEzClxjb2NvYXRleHRzY2FsaW5nMFxjb2NvYXBsYXRmb3JtMHtcZm9udHRibFxmMFxmc3dpc3NcZmNoYXJzZXQwIEhlbHZldGljYS1Cb2xkO1xmMVxmc3dpc3NcZmNoYXJzZXQwIEhlbHZldGljYTt9CntcY29sb3J0Ymw7XHJlZDI1NVxncmVlbjI1NVxibHVlMjU1O1xyZWQyMjVcZ3JlZW4yMzJcYmx1ZTI0MTtccmVkMjU1XGdyZWVuMjU1XGJsdWUyNTU7fQp7XCpcZXhwYW5kZWRjb2xvcnRibDs7XGNzc3JnYlxjOTA1ODhcYzkyOTQxXGM5NTY4NjtcY3NzcmdiXGMxMDAwMDBcYzEwMDAwMFxjMTAwMDAwXGNuYW1lIHRleHRCYWNrZ3JvdW5kQ29sb3I7fQpccGFyZFx0eDcyMFx0eDE0NDBcdHgyMTYwXHR4Mjg4MFx0eDM2MDBcdHg0MzIwXHR4NTA0MFx0eDU3NjBcdHg2NDgwXHR4NzIwMFx0eDc5MjBcdHg4NjQwXHBhcmRpcm5hdHVyYWxccGFydGlnaHRlbmZhY3RvcjAKClxmMFxiXGZzMzAgXGNmMiBcY2IzIEVsZW1lbnRhbCBBdHRhY2sKXGYxXGIwICBbRFYgKEYpUCwgQXR0YWNrIFJhdGluZ3MgKEYgeCAyKS8oRiB4IDIpIFwnOTYgMi8oRiB4IDIpIFwnOTYgOCkvKEYgeCAyKSBcJzk2IDEwL1wnOTddIFwKClxmMFxiIEVuZ3VsZiAKXGYxXGIwIFsoRFYgKEYgKyAyKVMgKyBGYXRpZ3VlIEksIEF0dGFjayBSYXRpbmdzIChGIHggMikgKyAxL1wnOTcvXCc5Ny9cJzk3L1wnOTddIApcZjBcYlxmczI4IFwKXAoKXGZzMzIgT3B0aW9uYWwgUG93ZXJzICgxIHBlciAzIEZvcmNlIC0gcm91bmQgZG93bikKXGYxXGIwXGZzMjQgXApccGFyZFx0eDcyMFx0eDE0NDBcdHgyMTYwXHR4Mjg4MFx0eDM2MDBcdHg0MzIwXHR4NTA0MFx0eDU3NjBcdHg2NDgwXHR4NzIwMFx0eDc5MjBcdHg4NjQwXHBhcmRpcm5hdHVyYWxccGFydGlnaHRlbmZhY3RvcjAKClxmczI4IFxjZjIgRWxlbWVudGFsIEF0dGFjayAoQ29sZClcCkVsZW1lbnRhbCBBdHRhY2sgKEVsZWN0cmljaXR5KVwKRW5lcmd5IEF1cmFcCkZlYXJcCkd1YXJkXApOb3hpb3VzIEJyZWF0aFwKUHN5Y2hva2luZXNpcwpcZnMyNCBcCn2AAtISExQVWiRjbGFzc25hbWVYJGNsYXNzZXNdTlNNdXRhYmxlRGF0YaMUFhdWTlNEYXRhWE5TT2JqZWN0AAgAEQAaACQAKQAyADcASQBMAFEAUwBXAF0AYgBqAHEEggSEBIkElASdBKsErwS2AAAAAAAAAgEAAAAAAAAAGAAAAAAAAAAAAAAAAAAABL8=
+</attribute>
+        <attribute name="defenserating" type="int16">0</attribute>
+        <attribute name="cyberjack" type="int16">0</attribute>
+        <attribute name="cyberdeck" type="int16">0</attribute>
+        <attribute name="currentspeed" type="int32">0</attribute>
+        <attribute name="currentmode" type="int16">0</attribute>
+        <attribute name="currentminor" type="int16">3</attribute>
+        <attribute name="currentmajor" type="int16">1</attribute>
+        <attribute name="currentinit" type="int16">21</attribute>
+        <attribute name="currentedge" type="int16">1</attribute>
+        <attribute name="currentdice" type="int16">2</attribute>
+        <attribute name="commlink" type="int16">0</attribute>
+        <attribute name="charname" type="string">Air Spirit</attribute>
+        <attribute name="boxesstun" type="int16">8</attribute>
+        <attribute name="boxesphysical" type="int16">8</attribute>
+        <attribute name="boxesmatrix" type="int16">8</attribute>
+        <attribute name="attrwillpower" type="int16">0</attribute>
+        <attribute name="attrstrength" type="int16">-3</attribute>
+        <attribute name="attrreaction" type="int16">4</attribute>
+        <attribute name="attrmagic" type="int16">0</attribute>
+        <attribute name="attrlogic" type="int16">0</attribute>
+        <attribute name="attrintuition" type="int16">0</attribute>
+        <attribute name="attressence" type="float">0</attribute>
+        <attribute name="attredge" type="int16">0</attribute>
+        <attribute name="attrdrain" type="int16">0</attribute>
+        <attribute name="attrcharisma" type="int16">0</attribute>
+        <attribute name="attrbody" type="int16">-2</attribute>
+        <attribute name="attragility" type="int16">3</attribute>
+        <attribute name="astralminor" type="int16">4</attribute>
+        <attribute name="astralmajor" type="int16">1</attribute>
+        <attribute name="astralinitiative" type="int16">0</attribute>
+        <attribute name="astraldice" type="int16">3</attribute>
+        <attribute name="actortype" type="int16">2</attribute>
+        <attribute name="actorcategory" type="int16">0</attribute>
+        <relationship name="adeptpowers" type="0/0" destination="SR6ACTORADEPTPOWER"></relationship>
+        <relationship name="augs" type="0/0" destination="SR6ACTORAUG"></relationship>
+        <relationship name="complexforms" type="0/0" destination="SR6ACTORCOMPLEXFORM"></relationship>
+        <relationship name="echoes" type="0/0" destination="SR6ACTORECHO"></relationship>
+        <relationship name="metamagics" type="0/0" destination="SR6ACTORMETAMAGIC"></relationship>
+        <relationship name="powers" type="0/0" destination="SR6ACTORPOWER" idrefs="z112 z133 z120 z154 z136 z108 z132 z117 z156"></relationship>
+        <relationship name="programs" type="0/0" destination="SR6ACTORPROGRAM"></relationship>
+        <relationship name="qualities" type="0/0" destination="SR6ACTORQUALITY"></relationship>
+        <relationship name="spells" type="0/0" destination="SR6ACTORSPELL"></relationship>
+        <relationship name="weapons" type="0/0" destination="SR6ACTORWEAPON"></relationship>
+    </object>
+    <object type="SR6ACTOR" id="z105">
+        <attribute name="vehtopspeed" type="int16">0</attribute>
+        <attribute name="vehspeedinterval" type="int16">0</attribute>
+        <attribute name="vehsensor" type="int16">0</attribute>
+        <attribute name="vehseat" type="int16">0</attribute>
+        <attribute name="vehpilot" type="int16">0</attribute>
+        <attribute name="vehhandling" type="string"></attribute>
+        <attribute name="vehbody" type="int16">0</attribute>
+        <attribute name="veharmor" type="int16">0</attribute>
+        <attribute name="vehaccel" type="int16">0</attribute>
+        <attribute name="submersiongrade" type="int16">0</attribute>
+        <attribute name="stuncondition" type="int16">0</attribute>
+        <attribute name="statuszappedduration" type="int16">-1</attribute>
+        <attribute name="statuszapped" type="bool">0</attribute>
+        <attribute name="statuswetduration" type="int16">-1</attribute>
+        <attribute name="statuswet" type="bool">0</attribute>
+        <attribute name="statusstilledduration" type="int16">-1</attribute>
+        <attribute name="statusstilled" type="bool">0</attribute>
+        <attribute name="statussilentrating" type="int16">6</attribute>
+        <attribute name="statussilentimprovedrating" type="int16">6</attribute>
+        <attribute name="statussilentimprovedduration" type="int16">-1</attribute>
+        <attribute name="statussilentimproved" type="bool">0</attribute>
+        <attribute name="statussilentduration" type="int16">-1</attribute>
+        <attribute name="statussilent" type="bool">0</attribute>
+        <attribute name="statusproneduration" type="int16">-1</attribute>
+        <attribute name="statusprone" type="bool">0</attribute>
+        <attribute name="statuspoisonedrating" type="int16">6</attribute>
+        <attribute name="statuspoisonedduration" type="int16">-1</attribute>
+        <attribute name="statuspoisoned" type="bool">0</attribute>
+        <attribute name="statuspetrifiedduration" type="int16">-1</attribute>
+        <attribute name="statuspetrified" type="bool">0</attribute>
+        <attribute name="statuspanickedduration" type="int16">-1</attribute>
+        <attribute name="statuspanicked" type="bool">0</attribute>
+        <attribute name="statusoffbalanceduration" type="int16">-1</attribute>
+        <attribute name="statusoffbalance" type="bool">0</attribute>
+        <attribute name="statusnoiserating" type="int16">1</attribute>
+        <attribute name="statusnoiseduration" type="int16">-1</attribute>
+        <attribute name="statusnoise" type="bool">0</attribute>
+        <attribute name="statusnauseatedduration" type="int16">-1</attribute>
+        <attribute name="statusnauseated" type="bool">0</attribute>
+        <attribute name="statusmutedduration" type="int16">-1</attribute>
+        <attribute name="statusmuted" type="bool">0</attribute>
+        <attribute name="statusinvisiblerating" type="int16">6</attribute>
+        <attribute name="statusinvisibleimprovedrating" type="int16">6</attribute>
+        <attribute name="statusinvisibleimprovedduration" type="int16">-1</attribute>
+        <attribute name="statusinvisibleimproved" type="bool">0</attribute>
+        <attribute name="statusinvisibleduration" type="int16">-1</attribute>
+        <attribute name="statusinvisible" type="bool">0</attribute>
+        <attribute name="statusimmobilizedduration" type="int16">-1</attribute>
+        <attribute name="statusimmobilized" type="bool">0</attribute>
+        <attribute name="statushobbledduration" type="int16">-1</attribute>
+        <attribute name="statushobbled" type="bool">0</attribute>
+        <attribute name="statushazedduration" type="int16">-1</attribute>
+        <attribute name="statushazed" type="bool">0</attribute>
+        <attribute name="statusfrightenedduration" type="int16">-1</attribute>
+        <attribute name="statusfrightened" type="bool">0</attribute>
+        <attribute name="statusfatiguedrating" type="int16">1</attribute>
+        <attribute name="statusfatiguedduration" type="int16">-1</attribute>
+        <attribute name="statusfatigued" type="bool">0</attribute>
+        <attribute name="statusdisabledlegrating" type="int16">1</attribute>
+        <attribute name="statusdisabledlegduration" type="int16">-1</attribute>
+        <attribute name="statusdisabledleg" type="bool">0</attribute>
+        <attribute name="statusdisabledarmrating" type="int16">1</attribute>
+        <attribute name="statusdisabledarmduration" type="int16">-1</attribute>
+        <attribute name="statusdisabledarm" type="bool">0</attribute>
+        <attribute name="statusdeafenedrating" type="int16">1</attribute>
+        <attribute name="statusdeafenedduration" type="int16">-1</attribute>
+        <attribute name="statusdeafened" type="bool">0</attribute>
+        <attribute name="statusdazedduration" type="int16">-1</attribute>
+        <attribute name="statusdazed" type="bool">0</attribute>
+        <attribute name="statuscoverrating" type="int16">1</attribute>
+        <attribute name="statuscoverduration" type="int16">-1</attribute>
+        <attribute name="statuscover" type="bool">0</attribute>
+        <attribute name="statuscorrossiverating" type="int16">6</attribute>
+        <attribute name="statuscorrossiveduration" type="int16">-1</attribute>
+        <attribute name="statuscorrossive" type="bool">0</attribute>
+        <attribute name="statusconfusedrating" type="int16">6</attribute>
+        <attribute name="statusconfusedduration" type="int16">-1</attribute>
+        <attribute name="statusconfused" type="bool">0</attribute>
+        <attribute name="statuschilledduration" type="int16">-1</attribute>
+        <attribute name="statuschilled" type="bool">0</attribute>
+        <attribute name="statusburningrating" type="int16">6</attribute>
+        <attribute name="statusburningduration" type="int16">-1</attribute>
+        <attribute name="statusburning" type="bool">0</attribute>
+        <attribute name="statusblindedrating" type="int16">1</attribute>
+        <attribute name="statusblindedduration" type="int16">-1</attribute>
+        <attribute name="statusblinded" type="bool">0</attribute>
+        <attribute name="statusbackgroundrating" type="int16">1</attribute>
+        <attribute name="statusbackgroundduration" type="int16">-1</attribute>
+        <attribute name="statusbackground" type="bool">0</attribute>
+        <attribute name="skilltaskingspec" type="string"></attribute>
+        <attribute name="skilltasking" type="int16">0</attribute>
+        <attribute name="skillstealthspec" type="string"></attribute>
+        <attribute name="skillstealth" type="int16">0</attribute>
+        <attribute name="skillsorceryspec" type="string"></attribute>
+        <attribute name="skillsorcery" type="int16">0</attribute>
+        <attribute name="skillpilotspec" type="string"></attribute>
+        <attribute name="skillpilot" type="int16">0</attribute>
+        <attribute name="skillperceptionspec" type="string"></attribute>
+        <attribute name="skillperception" type="int16">1</attribute>
+        <attribute name="skilloutdoorsspec" type="string"></attribute>
+        <attribute name="skilloutdoors" type="int16">0</attribute>
+        <attribute name="skillotherspec" type="string"></attribute>
+        <attribute name="skillother" type="int16">0</attribute>
+        <attribute name="skillinfluencespec" type="string"></attribute>
+        <attribute name="skillinfluence" type="int16">0</attribute>
+        <attribute name="skillfirearmsspec" type="string"></attribute>
+        <attribute name="skillfirearms" type="int16">0</attribute>
+        <attribute name="skillexoticweaponsspec" type="string"></attribute>
+        <attribute name="skillexoticweapons" type="int16">1</attribute>
+        <attribute name="skillengineeringspec" type="string"></attribute>
+        <attribute name="skillengineering" type="int16">0</attribute>
+        <attribute name="skillenchantingspec" type="string"></attribute>
+        <attribute name="skillenchanting" type="int16">0</attribute>
+        <attribute name="skillelectronicsspec" type="string"></attribute>
+        <attribute name="skillelectronics" type="int16">0</attribute>
+        <attribute name="skillcrackingspec" type="string"></attribute>
+        <attribute name="skillcracking" type="int16">0</attribute>
+        <attribute name="skillconjuringspec" type="string"></attribute>
+        <attribute name="skillconjuring" type="int16">0</attribute>
+        <attribute name="skillconspec" type="string"></attribute>
+        <attribute name="skillcon" type="int16">0</attribute>
+        <attribute name="skillclosecombatspec" type="string"></attribute>
+        <attribute name="skillclosecombat" type="int16">1</attribute>
+        <attribute name="skillbiotechspec" type="string"></attribute>
+        <attribute name="skillbiotech" type="int16">0</attribute>
+        <attribute name="skillathleticsspec" type="string">Swim</attribute>
+        <attribute name="skillathletics" type="int16">1</attribute>
+        <attribute name="skillastralspec" type="string"></attribute>
+        <attribute name="skillastral" type="int16">1</attribute>
+        <attribute name="services" type="int16">0</attribute>
+        <attribute name="rcc" type="int16">0</attribute>
+        <attribute name="rating" type="int16">5</attribute>
+        <attribute name="professionalrating" type="int16">0</attribute>
+        <attribute name="physicalminor" type="int16">3</attribute>
+        <attribute name="physicalmajor" type="int16">1</attribute>
+        <attribute name="physicalinitiative" type="int16">2</attribute>
+        <attribute name="physicaldice" type="int16">2</attribute>
+        <attribute name="physicalcondition" type="int16">0</attribute>
+        <attribute name="overwatchscore" type="int16">0</attribute>
+        <attribute name="overflow" type="int16">0</attribute>
+        <attribute name="notes" type="string"></attribute>
+        <attribute name="move" type="string">5/10/+2</attribute>
+        <attribute name="metatype" type="int16">0</attribute>
+        <attribute name="matrixsleaze" type="int16">0</attribute>
+        <attribute name="matrixminor" type="int16">4</attribute>
+        <attribute name="matrixmajor" type="int16">1</attribute>
+        <attribute name="matrixinitiative" type="int16">0</attribute>
+        <attribute name="matrixfirewall" type="int16">1</attribute>
+        <attribute name="matrixdice" type="int16">3</attribute>
+        <attribute name="matrixdevicerating" type="int16">1</attribute>
+        <attribute name="matrixdefenserating" type="int16">0</attribute>
+        <attribute name="matrixdataprocessing" type="int16">1</attribute>
+        <attribute name="matrixcondition" type="int16">0</attribute>
+        <attribute name="matrixattackrating" type="int16">0</attribute>
+        <attribute name="matrixattack" type="int16">0</attribute>
+        <attribute name="initiategrade" type="int16">0</attribute>
+        <attribute name="hitssurprise" type="int16">4</attribute>
+        <attribute name="hitsstealth" type="int16">3</attribute>
+        <attribute name="hitsperception" type="int16">2</attribute>
+        <attribute name="detailstring" type="binary">YnBsaXN0MDDUAQIDBAUGBwpYJHZlcnNpb25ZJGFyY2hpdmVyVCR0b3BYJG9iamVjdHMSAAGGoF8Q
+D05TS2V5ZWRBcmNoaXZlctEICVRyb290gAGjCwwRVSRudWxs0g0ODxBXTlMuZGF0YVYkY2xhc3NPEQWue1xydGYxXGFuc2lcYW5zaWNwZzEyNTJcY29jb2FydGYyNTEzClxjb2NvYXRleHRzY2FsaW5nMFxjb2NvYXBsYXRmb3JtMHtcZm9udHRibFxmMFxmc3dpc3NcZmNoYXJzZXQwIEhlbHZldGljYS1Cb2xkO1xmMVxmc3dpc3NcZmNoYXJzZXQwIEhlbHZldGljYTt9CntcY29sb3J0Ymw7XHJlZDI1NVxncmVlbjI1NVxibHVlMjU1O1xyZWQyMjVcZ3JlZW4yMzJcYmx1ZTI0MTtccmVkMjU1XGdyZWVuMjU1XGJsdWUyNTU7fQp7XCpcZXhwYW5kZWRjb2xvcnRibDs7XGNzc3JnYlxjOTA1ODhcYzkyOTQxXGM5NTY4NjtcY3NzcmdiXGMxMDAwMDBcYzEwMDAwMFxjMTAwMDAwXGNuYW1lIHRleHRCYWNrZ3JvdW5kQ29sb3I7fQpccGFyZFx0eDcyMFx0eDE0NDBcdHgyMTYwXHR4Mjg4MFx0eDM2MDBcdHg0MzIwXHR4NTA0MFx0eDU3NjBcdHg2NDgwXHR4NzIwMFx0eDc5MjBcdHg4NjQwXHBhcmRpcm5hdHVyYWxccGFydGlnaHRlbmZhY3RvcjAKClxmMFxiXGZzMzAgXGNmMiBcY2IzIEVsZW1lbnRhbCBBdHRhY2sgW0RWIChGKVAsIEF0dGFjayBSYXRpbmdzIChGIHggMikvKEYgeCAyKSBcJzk2Mi8oRiB4IDIgXCc5NjgpLyAoRiB4IDIpIFwnOTYxMC9cJzk3XVwKRW5ndWxmIFsoRFYgKEYgKyAyKVMgKyBGYXRpZ3VlIEksIEF0dGFjayBSYXRpbmdzIChGIHggMikgKyAxL1wnOTcvXCc5Ny9cJzk3L1wnOTddClxmczI4IFxjZjIgXApccGFyZFx0eDcyMFx0eDE0NDBcdHgyMTYwXHR4Mjg4MFx0eDM2MDBcdHg0MzIwXHR4NTA0MFx0eDU3NjBcdHg2NDgwXHR4NzIwMFx0eDc5MjBcdHg4NjQwXHBhcmRlZnRhYjcyMFxwYXJkaXJuYXR1cmFsXHBhcnRpZ2h0ZW5mYWN0b3IwClxjZjIgXApccGFyZFx0eDcyMFx0eDE0NDBcdHgyMTYwXHR4Mjg4MFx0eDM2MDBcdHg0MzIwXHR4NTA0MFx0eDU3NjBcdHg2NDgwXHR4NzIwMFx0eDc5MjBcdHg4NjQwXHBhcmRpcm5hdHVyYWxccGFydGlnaHRlbmZhY3RvcjAKClxmczMyIFxjZjIgT3B0aW9uYWwgUG93ZXJzICgxIHBlciAzIEZvcmNlIC0gcm91bmQgZG93bikKXGYxXGIwXGZzMjQgXGNmMiBcClxwYXJkXHR4NzIwXHR4MTQ0MFx0eDIxNjBcdHgyODgwXHR4MzYwMFx0eDQzMjBcdHg1MDQwXHR4NTc2MFx0eDY0ODBcdHg3MjAwXHR4NzkyMFx0eDg2NDBccGFyZGVmdGFiNzIwXHBhcmRpcm5hdHVyYWxccGFydGlnaHRlbmZhY3RvcjAKClxmczI4IFxjZjIgQWNjaWRlbnQJXApCaW5kaW5nClxmczI0IFxjZjIgXApccGFyZFx0eDcyMFx0eDE0NDBcdHgyMTYwXHR4Mjg4MFx0eDM2MDBcdHg0MzIwXHR4NTA0MFx0eDU3NjBcdHg2NDgwXHR4NzIwMFx0eDc5MjBcdHg4NjQwXHBhcmRpcm5hdHVyYWxccGFydGlnaHRlbmZhY3RvcjAKClxmczI4IFxjZjIgRWxlbWVudGFsIEF0dGFjayAoQ29sZCkKXGZzMjQgXAoKXGZzMjggRW5lcmd5IEF1cmEgKENvbGQpClxmczI0IFwKClxmczI4IEd1YXJkClxmczI0IFwKClxmczI4IFdlYXRoZXIgQ29udHJvbApcZnMyNCBcCn2AAtISExQVWiRjbGFzc25hbWVYJGNsYXNzZXNdTlNNdXRhYmxlRGF0YaMUFhdWTlNEYXRhWE5TT2JqZWN0AAgAEQAaACQAKQAyADcASQBMAFEAUwBXAF0AYgBqAHEGIwYlBioGNQY+BkwGUAZXAAAAAAAAAgEAAAAAAAAAGAAAAAAAAAAAAAAAAAAABmA=
+</attribute>
+        <attribute name="defenserating" type="int16">0</attribute>
+        <attribute name="cyberjack" type="int16">0</attribute>
+        <attribute name="cyberdeck" type="int16">0</attribute>
+        <attribute name="currentspeed" type="int32">0</attribute>
+        <attribute name="currentmode" type="int16">0</attribute>
+        <attribute name="currentminor" type="int16">3</attribute>
+        <attribute name="currentmajor" type="int16">1</attribute>
+        <attribute name="currentinit" type="int16">22</attribute>
+        <attribute name="currentedge" type="int16">1</attribute>
+        <attribute name="currentdice" type="int16">2</attribute>
+        <attribute name="commlink" type="int16">0</attribute>
+        <attribute name="charname" type="string">Water Spirit</attribute>
+        <attribute name="boxesstun" type="int16">8</attribute>
+        <attribute name="boxesphysical" type="int16">8</attribute>
+        <attribute name="boxesmatrix" type="int16">8</attribute>
+        <attribute name="attrwillpower" type="int16">0</attribute>
+        <attribute name="attrstrength" type="int16">0</attribute>
+        <attribute name="attrreaction" type="int16">2</attribute>
+        <attribute name="attrmagic" type="int16">0</attribute>
+        <attribute name="attrlogic" type="int16">0</attribute>
+        <attribute name="attrintuition" type="int16">0</attribute>
+        <attribute name="attressence" type="float">0</attribute>
+        <attribute name="attredge" type="int16">0</attribute>
+        <attribute name="attrdrain" type="int16">0</attribute>
+        <attribute name="attrcharisma" type="int16">0</attribute>
+        <attribute name="attrbody" type="int16">0</attribute>
+        <attribute name="attragility" type="int16">1</attribute>
+        <attribute name="astralminor" type="int16">4</attribute>
+        <attribute name="astralmajor" type="int16">1</attribute>
+        <attribute name="astralinitiative" type="int16">0</attribute>
+        <attribute name="astraldice" type="int16">3</attribute>
+        <attribute name="actortype" type="int16">2</attribute>
+        <attribute name="actorcategory" type="int16">0</attribute>
+        <relationship name="adeptpowers" type="0/0" destination="SR6ACTORADEPTPOWER"></relationship>
+        <relationship name="augs" type="0/0" destination="SR6ACTORAUG"></relationship>
+        <relationship name="complexforms" type="0/0" destination="SR6ACTORCOMPLEXFORM"></relationship>
+        <relationship name="echoes" type="0/0" destination="SR6ACTORECHO"></relationship>
+        <relationship name="metamagics" type="0/0" destination="SR6ACTORMETAMAGIC"></relationship>
+        <relationship name="powers" type="0/0" destination="SR6ACTORPOWER" idrefs="z130 z114 z142 z131 z153 z140 z149 z126 z137"></relationship>
+        <relationship name="programs" type="0/0" destination="SR6ACTORPROGRAM"></relationship>
+        <relationship name="qualities" type="0/0" destination="SR6ACTORQUALITY"></relationship>
+        <relationship name="spells" type="0/0" destination="SR6ACTORSPELL"></relationship>
+        <relationship name="weapons" type="0/0" destination="SR6ACTORWEAPON"></relationship>
+    </object>
+    <object type="SR6ACTOR" id="z106">
+        <attribute name="vehtopspeed" type="int16">0</attribute>
+        <attribute name="vehspeedinterval" type="int16">0</attribute>
+        <attribute name="vehsensor" type="int16">0</attribute>
+        <attribute name="vehseat" type="int16">0</attribute>
+        <attribute name="vehpilot" type="int16">0</attribute>
+        <attribute name="vehhandling" type="string"></attribute>
+        <attribute name="vehbody" type="int16">0</attribute>
+        <attribute name="veharmor" type="int16">0</attribute>
+        <attribute name="vehaccel" type="int16">0</attribute>
+        <attribute name="submersiongrade" type="int16">0</attribute>
+        <attribute name="stuncondition" type="int16">0</attribute>
+        <attribute name="statuszappedduration" type="int16">-1</attribute>
+        <attribute name="statuszapped" type="bool">0</attribute>
+        <attribute name="statuswetduration" type="int16">-1</attribute>
+        <attribute name="statuswet" type="bool">0</attribute>
+        <attribute name="statusstilledduration" type="int16">-1</attribute>
+        <attribute name="statusstilled" type="bool">0</attribute>
+        <attribute name="statussilentrating" type="int16">6</attribute>
+        <attribute name="statussilentimprovedrating" type="int16">6</attribute>
+        <attribute name="statussilentimprovedduration" type="int16">-1</attribute>
+        <attribute name="statussilentimproved" type="bool">0</attribute>
+        <attribute name="statussilentduration" type="int16">-1</attribute>
+        <attribute name="statussilent" type="bool">0</attribute>
+        <attribute name="statusproneduration" type="int16">-1</attribute>
+        <attribute name="statusprone" type="bool">0</attribute>
+        <attribute name="statuspoisonedrating" type="int16">6</attribute>
+        <attribute name="statuspoisonedduration" type="int16">-1</attribute>
+        <attribute name="statuspoisoned" type="bool">0</attribute>
+        <attribute name="statuspetrifiedduration" type="int16">-1</attribute>
+        <attribute name="statuspetrified" type="bool">0</attribute>
+        <attribute name="statuspanickedduration" type="int16">-1</attribute>
+        <attribute name="statuspanicked" type="bool">0</attribute>
+        <attribute name="statusoffbalanceduration" type="int16">-1</attribute>
+        <attribute name="statusoffbalance" type="bool">0</attribute>
+        <attribute name="statusnoiserating" type="int16">1</attribute>
+        <attribute name="statusnoiseduration" type="int16">-1</attribute>
+        <attribute name="statusnoise" type="bool">0</attribute>
+        <attribute name="statusnauseatedduration" type="int16">-1</attribute>
+        <attribute name="statusnauseated" type="bool">0</attribute>
+        <attribute name="statusmutedduration" type="int16">-1</attribute>
+        <attribute name="statusmuted" type="bool">0</attribute>
+        <attribute name="statusinvisiblerating" type="int16">6</attribute>
+        <attribute name="statusinvisibleimprovedrating" type="int16">6</attribute>
+        <attribute name="statusinvisibleimprovedduration" type="int16">-1</attribute>
+        <attribute name="statusinvisibleimproved" type="bool">0</attribute>
+        <attribute name="statusinvisibleduration" type="int16">-1</attribute>
+        <attribute name="statusinvisible" type="bool">0</attribute>
+        <attribute name="statusimmobilizedduration" type="int16">-1</attribute>
+        <attribute name="statusimmobilized" type="bool">0</attribute>
+        <attribute name="statushobbledduration" type="int16">-1</attribute>
+        <attribute name="statushobbled" type="bool">0</attribute>
+        <attribute name="statushazedduration" type="int16">-1</attribute>
+        <attribute name="statushazed" type="bool">0</attribute>
+        <attribute name="statusfrightenedduration" type="int16">-1</attribute>
+        <attribute name="statusfrightened" type="bool">0</attribute>
+        <attribute name="statusfatiguedrating" type="int16">1</attribute>
+        <attribute name="statusfatiguedduration" type="int16">-1</attribute>
+        <attribute name="statusfatigued" type="bool">0</attribute>
+        <attribute name="statusdisabledlegrating" type="int16">1</attribute>
+        <attribute name="statusdisabledlegduration" type="int16">-1</attribute>
+        <attribute name="statusdisabledleg" type="bool">0</attribute>
+        <attribute name="statusdisabledarmrating" type="int16">1</attribute>
+        <attribute name="statusdisabledarmduration" type="int16">-1</attribute>
+        <attribute name="statusdisabledarm" type="bool">0</attribute>
+        <attribute name="statusdeafenedrating" type="int16">1</attribute>
+        <attribute name="statusdeafenedduration" type="int16">-1</attribute>
+        <attribute name="statusdeafened" type="bool">0</attribute>
+        <attribute name="statusdazedduration" type="int16">-1</attribute>
+        <attribute name="statusdazed" type="bool">0</attribute>
+        <attribute name="statuscoverrating" type="int16">1</attribute>
+        <attribute name="statuscoverduration" type="int16">-1</attribute>
+        <attribute name="statuscover" type="bool">0</attribute>
+        <attribute name="statuscorrossiverating" type="int16">6</attribute>
+        <attribute name="statuscorrossiveduration" type="int16">-1</attribute>
+        <attribute name="statuscorrossive" type="bool">0</attribute>
+        <attribute name="statusconfusedrating" type="int16">6</attribute>
+        <attribute name="statusconfusedduration" type="int16">-1</attribute>
+        <attribute name="statusconfused" type="bool">0</attribute>
+        <attribute name="statuschilledduration" type="int16">-1</attribute>
+        <attribute name="statuschilled" type="bool">0</attribute>
+        <attribute name="statusburningrating" type="int16">6</attribute>
+        <attribute name="statusburningduration" type="int16">-1</attribute>
+        <attribute name="statusburning" type="bool">0</attribute>
+        <attribute name="statusblindedrating" type="int16">1</attribute>
+        <attribute name="statusblindedduration" type="int16">-1</attribute>
+        <attribute name="statusblinded" type="bool">0</attribute>
+        <attribute name="statusbackgroundrating" type="int16">1</attribute>
+        <attribute name="statusbackgroundduration" type="int16">-1</attribute>
+        <attribute name="statusbackground" type="bool">0</attribute>
+        <attribute name="skilltaskingspec" type="string"></attribute>
+        <attribute name="skilltasking" type="int16">0</attribute>
+        <attribute name="skillstealthspec" type="string"></attribute>
+        <attribute name="skillstealth" type="int16">0</attribute>
+        <attribute name="skillsorceryspec" type="string"></attribute>
+        <attribute name="skillsorcery" type="int16">0</attribute>
+        <attribute name="skillpilotspec" type="string"></attribute>
+        <attribute name="skillpilot" type="int16">0</attribute>
+        <attribute name="skillperceptionspec" type="string"></attribute>
+        <attribute name="skillperception" type="int16">1</attribute>
+        <attribute name="skilloutdoorsspec" type="string"></attribute>
+        <attribute name="skilloutdoors" type="int16">0</attribute>
+        <attribute name="skillotherspec" type="string"></attribute>
+        <attribute name="skillother" type="int16">0</attribute>
+        <attribute name="skillinfluencespec" type="string"></attribute>
+        <attribute name="skillinfluence" type="int16">0</attribute>
+        <attribute name="skillfirearmsspec" type="string"></attribute>
+        <attribute name="skillfirearms" type="int16">0</attribute>
+        <attribute name="skillexoticweaponsspec" type="string"></attribute>
+        <attribute name="skillexoticweapons" type="int16">1</attribute>
+        <attribute name="skillengineeringspec" type="string"></attribute>
+        <attribute name="skillengineering" type="int16">0</attribute>
+        <attribute name="skillenchantingspec" type="string"></attribute>
+        <attribute name="skillenchanting" type="int16">0</attribute>
+        <attribute name="skillelectronicsspec" type="string"></attribute>
+        <attribute name="skillelectronics" type="int16">0</attribute>
+        <attribute name="skillcrackingspec" type="string"></attribute>
+        <attribute name="skillcracking" type="int16">0</attribute>
+        <attribute name="skillconjuringspec" type="string"></attribute>
+        <attribute name="skillconjuring" type="int16">0</attribute>
+        <attribute name="skillconspec" type="string"></attribute>
+        <attribute name="skillcon" type="int16">0</attribute>
+        <attribute name="skillclosecombatspec" type="string"></attribute>
+        <attribute name="skillclosecombat" type="int16">1</attribute>
+        <attribute name="skillbiotechspec" type="string"></attribute>
+        <attribute name="skillbiotech" type="int16">0</attribute>
+        <attribute name="skillathleticsspec" type="string"></attribute>
+        <attribute name="skillathletics" type="int16">1</attribute>
+        <attribute name="skillastralspec" type="string"></attribute>
+        <attribute name="skillastral" type="int16">1</attribute>
+        <attribute name="services" type="int16">0</attribute>
+        <attribute name="rcc" type="int16">0</attribute>
+        <attribute name="rating" type="int16">5</attribute>
+        <attribute name="professionalrating" type="int16">0</attribute>
+        <attribute name="physicalminor" type="int16">3</attribute>
+        <attribute name="physicalmajor" type="int16">1</attribute>
+        <attribute name="physicalinitiative" type="int16">4</attribute>
+        <attribute name="physicaldice" type="int16">2</attribute>
+        <attribute name="physicalcondition" type="int16">0</attribute>
+        <attribute name="overwatchscore" type="int16">0</attribute>
+        <attribute name="overflow" type="int16">0</attribute>
+        <attribute name="notes" type="string"></attribute>
+        <attribute name="move" type="string">5/10/+5</attribute>
+        <attribute name="metatype" type="int16">0</attribute>
+        <attribute name="matrixsleaze" type="int16">0</attribute>
+        <attribute name="matrixminor" type="int16">4</attribute>
+        <attribute name="matrixmajor" type="int16">1</attribute>
+        <attribute name="matrixinitiative" type="int16">0</attribute>
+        <attribute name="matrixfirewall" type="int16">1</attribute>
+        <attribute name="matrixdice" type="int16">3</attribute>
+        <attribute name="matrixdevicerating" type="int16">1</attribute>
+        <attribute name="matrixdefenserating" type="int16">0</attribute>
+        <attribute name="matrixdataprocessing" type="int16">1</attribute>
+        <attribute name="matrixcondition" type="int16">0</attribute>
+        <attribute name="matrixattackrating" type="int16">0</attribute>
+        <attribute name="matrixattack" type="int16">0</attribute>
+        <attribute name="initiategrade" type="int16">0</attribute>
+        <attribute name="hitssurprise" type="int16">5</attribute>
+        <attribute name="hitsstealth" type="int16">4</attribute>
+        <attribute name="hitsperception" type="int16">3</attribute>
+        <attribute name="detailstring" type="binary">YnBsaXN0MDDUAQIDBAUGBwpYJHZlcnNpb25ZJGFyY2hpdmVyVCR0b3BYJG9iamVjdHMSAAGGoF8Q
+D05TS2V5ZWRBcmNoaXZlctEICVRyb290gAGjCwwRVSRudWxs0g0ODxBXTlMuZGF0YVYkY2xhc3NPEQUie1xydGYxXGFuc2lcYW5zaWNwZzEyNTJcY29jb2FydGYyNTEzClxjb2NvYXRleHRzY2FsaW5nMFxjb2NvYXBsYXRmb3JtMHtcZm9udHRibFxmMFxmc3dpc3NcZmNoYXJzZXQwIEhlbHZldGljYS1Cb2xkO1xmMVxmc3dpc3NcZmNoYXJzZXQwIEhlbHZldGljYTt9CntcY29sb3J0Ymw7XHJlZDI1NVxncmVlbjI1NVxibHVlMjU1O1xyZWQyMjVcZ3JlZW4yMzJcYmx1ZTI0MTtccmVkMjU1XGdyZWVuMjU1XGJsdWUyNTU7XHJlZDBcZ3JlZW4wXGJsdWUwOwp9CntcKlxleHBhbmRlZGNvbG9ydGJsOztcY3NzcmdiXGM5MDU4OFxjOTI5NDFcYzk1Njg2O1xjc3NyZ2JcYzEwMDAwMFxjMTAwMDAwXGMxMDAwMDBcY25hbWUgdGV4dEJhY2tncm91bmRDb2xvcjtcY3NzcmdiXGMwXGMwXGMwXGNuYW1lIHRleHRDb2xvcjsKfQpccGFyZFx0eDcyMFx0eDE0NDBcdHgyMTYwXHR4Mjg4MFx0eDM2MDBcdHg0MzIwXHR4NTA0MFx0eDU3NjBcdHg2NDgwXHR4NzIwMFx0eDc5MjBcdHg4NjQwXHBhcmRpcm5hdHVyYWxccGFydGlnaHRlbmZhY3RvcjAKClxmMFxiXGZzMzAgXGNmMiBcY2IzIEVsZW1lbnRhbCBBdHRhY2sgW0RWIChGKVAsIEF0dGFjayBSYXRpbmdzIChGIHggMikvKEYgeCAyKSBcJzk2Mi8oRiB4IDIpIFwnOTY4LyAoRiB4IDIpIFwnOTYxMC9cJzk3XVwKRW5ndWxmIFsoRFYgKEYgKyAyKVMgKyBGYXRpZ3VlIEksIEF0dGFjayBSYXRpbmdzIChGIHggMikgKyAxL1wnOTcvXCc5Ny9cJzk3L1wnOTddClxmczI4IFwKXHBhcmRcdHg3MjBcdHgxNDQwXHR4MjE2MFx0eDI4ODBcdHgzNjAwXHR4NDMyMFx0eDUwNDBcdHg1NzYwXHR4NjQ4MFx0eDcyMDBcdHg3OTIwXHR4ODY0MFxwYXJkaXJuYXR1cmFsXHBhcnRpZ2h0ZW5mYWN0b3IwCgpcZjFcYjBcZnMyNCBcY2Y0IFwKXHBhcmRcdHg3MjBcdHgxNDQwXHR4MjE2MFx0eDI4ODBcdHgzNjAwXHR4NDMyMFx0eDUwNDBcdHg1NzYwXHR4NjQ4MFx0eDcyMDBcdHg3OTIwXHR4ODY0MFxwYXJkaXJuYXR1cmFsXHBhcnRpZ2h0ZW5mYWN0b3IwCgpcZjBcYlxmczMyIFxjZjIgT3B0aW9uYWwgUG93ZXJzICgxIHBlciAzIEZvcmNlIC0gcm91bmQgZG93bikKXGYxXGIwXGZzMjQgXApccGFyZFx0eDcyMFx0eDE0NDBcdHgyMTYwXHR4Mjg4MFx0eDM2MDBcdHg0MzIwXHR4NTA0MFx0eDU3NjBcdHg2NDgwXHR4NzIwMFx0eDc5MjBcdHg4NjQwXHBhcmRpcm5hdHVyYWxccGFydGlnaHRlbmZhY3RvcjAKClxmczI4IFxjZjIgRmVhcgpcZnMyNCBcY2YyIFwKClxmczI4IFxjZjIgR3VhcmQKXGZzMjQgXGNmMiBcCgpcZnMyOCBcY2YyIE5veGlvdXMgQnJlYXRoClxmczI0IFxjZjIgXAoKXGZzMjggXGNmMiBTZWFyY2h9gALSEhMUFVokY2xhc3NuYW1lWCRjbGFzc2VzXU5TTXV0YWJsZURhdGGjFBYXVk5TRGF0YVhOU09iamVjdAAIABEAGgAkACkAMgA3AEkATABRAFMAVwBdAGIAagBxBZcFmQWeBakFsgXABcQFywAAAAAAAAIBAAAAAAAAABgAAAAAAAAAAAAAAAAAAAXU
+</attribute>
+        <attribute name="defenserating" type="int16">0</attribute>
+        <attribute name="cyberjack" type="int16">0</attribute>
+        <attribute name="cyberdeck" type="int16">0</attribute>
+        <attribute name="currentspeed" type="int32">0</attribute>
+        <attribute name="currentmode" type="int16">0</attribute>
+        <attribute name="currentminor" type="int16">3</attribute>
+        <attribute name="currentmajor" type="int16">1</attribute>
+        <attribute name="currentinit" type="int16">24</attribute>
+        <attribute name="currentedge" type="int16">1</attribute>
+        <attribute name="currentdice" type="int16">2</attribute>
+        <attribute name="commlink" type="int16">0</attribute>
+        <attribute name="charname" type="string">Fire Spirit</attribute>
+        <attribute name="boxesstun" type="int16">8</attribute>
+        <attribute name="boxesphysical" type="int16">8</attribute>
+        <attribute name="boxesmatrix" type="int16">8</attribute>
+        <attribute name="attrwillpower" type="int16">0</attribute>
+        <attribute name="attrstrength" type="int16">-2</attribute>
+        <attribute name="attrreaction" type="int16">3</attribute>
+        <attribute name="attrmagic" type="int16">0</attribute>
+        <attribute name="attrlogic" type="int16">0</attribute>
+        <attribute name="attrintuition" type="int16">1</attribute>
+        <attribute name="attressence" type="float">0</attribute>
+        <attribute name="attredge" type="int16">0</attribute>
+        <attribute name="attrdrain" type="int16">0</attribute>
+        <attribute name="attrcharisma" type="int16">0</attribute>
+        <attribute name="attrbody" type="int16">1</attribute>
+        <attribute name="attragility" type="int16">2</attribute>
+        <attribute name="astralminor" type="int16">4</attribute>
+        <attribute name="astralmajor" type="int16">1</attribute>
+        <attribute name="astralinitiative" type="int16">0</attribute>
+        <attribute name="astraldice" type="int16">3</attribute>
+        <attribute name="actortype" type="int16">2</attribute>
+        <attribute name="actorcategory" type="int16">0</attribute>
+        <relationship name="adeptpowers" type="0/0" destination="SR6ACTORADEPTPOWER"></relationship>
+        <relationship name="augs" type="0/0" destination="SR6ACTORAUG"></relationship>
+        <relationship name="complexforms" type="0/0" destination="SR6ACTORCOMPLEXFORM"></relationship>
+        <relationship name="echoes" type="0/0" destination="SR6ACTORECHO"></relationship>
+        <relationship name="metamagics" type="0/0" destination="SR6ACTORMETAMAGIC"></relationship>
+        <relationship name="powers" type="0/0" destination="SR6ACTORPOWER" idrefs="z138 z125 z146 z118 z148 z147 z134 z109"></relationship>
+        <relationship name="programs" type="0/0" destination="SR6ACTORPROGRAM"></relationship>
+        <relationship name="qualities" type="0/0" destination="SR6ACTORQUALITY"></relationship>
+        <relationship name="spells" type="0/0" destination="SR6ACTORSPELL"></relationship>
+        <relationship name="weapons" type="0/0" destination="SR6ACTORWEAPON"></relationship>
+    </object>
+    <object type="SR6ACTOR" id="z107">
+        <attribute name="vehtopspeed" type="int16">0</attribute>
+        <attribute name="vehspeedinterval" type="int16">0</attribute>
+        <attribute name="vehsensor" type="int16">0</attribute>
+        <attribute name="vehseat" type="int16">0</attribute>
+        <attribute name="vehpilot" type="int16">0</attribute>
+        <attribute name="vehhandling" type="string"></attribute>
+        <attribute name="vehbody" type="int16">0</attribute>
+        <attribute name="veharmor" type="int16">0</attribute>
+        <attribute name="vehaccel" type="int16">0</attribute>
+        <attribute name="submersiongrade" type="int16">0</attribute>
+        <attribute name="stuncondition" type="int16">0</attribute>
+        <attribute name="statuszappedduration" type="int16">-1</attribute>
+        <attribute name="statuszapped" type="bool">0</attribute>
+        <attribute name="statuswetduration" type="int16">-1</attribute>
+        <attribute name="statuswet" type="bool">0</attribute>
+        <attribute name="statusstilledduration" type="int16">-1</attribute>
+        <attribute name="statusstilled" type="bool">0</attribute>
+        <attribute name="statussilentrating" type="int16">6</attribute>
+        <attribute name="statussilentimprovedrating" type="int16">6</attribute>
+        <attribute name="statussilentimprovedduration" type="int16">-1</attribute>
+        <attribute name="statussilentimproved" type="bool">0</attribute>
+        <attribute name="statussilentduration" type="int16">-1</attribute>
+        <attribute name="statussilent" type="bool">0</attribute>
+        <attribute name="statusproneduration" type="int16">-1</attribute>
+        <attribute name="statusprone" type="bool">0</attribute>
+        <attribute name="statuspoisonedrating" type="int16">6</attribute>
+        <attribute name="statuspoisonedduration" type="int16">-1</attribute>
+        <attribute name="statuspoisoned" type="bool">0</attribute>
+        <attribute name="statuspetrifiedduration" type="int16">-1</attribute>
+        <attribute name="statuspetrified" type="bool">0</attribute>
+        <attribute name="statuspanickedduration" type="int16">-1</attribute>
+        <attribute name="statuspanicked" type="bool">0</attribute>
+        <attribute name="statusoffbalanceduration" type="int16">-1</attribute>
+        <attribute name="statusoffbalance" type="bool">0</attribute>
+        <attribute name="statusnoiserating" type="int16">1</attribute>
+        <attribute name="statusnoiseduration" type="int16">-1</attribute>
+        <attribute name="statusnoise" type="bool">0</attribute>
+        <attribute name="statusnauseatedduration" type="int16">-1</attribute>
+        <attribute name="statusnauseated" type="bool">0</attribute>
+        <attribute name="statusmutedduration" type="int16">-1</attribute>
+        <attribute name="statusmuted" type="bool">0</attribute>
+        <attribute name="statusinvisiblerating" type="int16">6</attribute>
+        <attribute name="statusinvisibleimprovedrating" type="int16">6</attribute>
+        <attribute name="statusinvisibleimprovedduration" type="int16">-1</attribute>
+        <attribute name="statusinvisibleimproved" type="bool">0</attribute>
+        <attribute name="statusinvisibleduration" type="int16">-1</attribute>
+        <attribute name="statusinvisible" type="bool">0</attribute>
+        <attribute name="statusimmobilizedduration" type="int16">-1</attribute>
+        <attribute name="statusimmobilized" type="bool">0</attribute>
+        <attribute name="statushobbledduration" type="int16">-1</attribute>
+        <attribute name="statushobbled" type="bool">0</attribute>
+        <attribute name="statushazedduration" type="int16">-1</attribute>
+        <attribute name="statushazed" type="bool">0</attribute>
+        <attribute name="statusfrightenedduration" type="int16">-1</attribute>
+        <attribute name="statusfrightened" type="bool">0</attribute>
+        <attribute name="statusfatiguedrating" type="int16">1</attribute>
+        <attribute name="statusfatiguedduration" type="int16">-1</attribute>
+        <attribute name="statusfatigued" type="bool">0</attribute>
+        <attribute name="statusdisabledlegrating" type="int16">1</attribute>
+        <attribute name="statusdisabledlegduration" type="int16">-1</attribute>
+        <attribute name="statusdisabledleg" type="bool">0</attribute>
+        <attribute name="statusdisabledarmrating" type="int16">1</attribute>
+        <attribute name="statusdisabledarmduration" type="int16">-1</attribute>
+        <attribute name="statusdisabledarm" type="bool">0</attribute>
+        <attribute name="statusdeafenedrating" type="int16">1</attribute>
+        <attribute name="statusdeafenedduration" type="int16">-1</attribute>
+        <attribute name="statusdeafened" type="bool">0</attribute>
+        <attribute name="statusdazedduration" type="int16">-1</attribute>
+        <attribute name="statusdazed" type="bool">0</attribute>
+        <attribute name="statuscoverrating" type="int16">1</attribute>
+        <attribute name="statuscoverduration" type="int16">-1</attribute>
+        <attribute name="statuscover" type="bool">0</attribute>
+        <attribute name="statuscorrossiverating" type="int16">6</attribute>
+        <attribute name="statuscorrossiveduration" type="int16">-1</attribute>
+        <attribute name="statuscorrossive" type="bool">0</attribute>
+        <attribute name="statusconfusedrating" type="int16">6</attribute>
+        <attribute name="statusconfusedduration" type="int16">-1</attribute>
+        <attribute name="statusconfused" type="bool">0</attribute>
+        <attribute name="statuschilledduration" type="int16">-1</attribute>
+        <attribute name="statuschilled" type="bool">0</attribute>
+        <attribute name="statusburningrating" type="int16">6</attribute>
+        <attribute name="statusburningduration" type="int16">-1</attribute>
+        <attribute name="statusburning" type="bool">0</attribute>
+        <attribute name="statusblindedrating" type="int16">1</attribute>
+        <attribute name="statusblindedduration" type="int16">-1</attribute>
+        <attribute name="statusblinded" type="bool">0</attribute>
+        <attribute name="statusbackgroundrating" type="int16">1</attribute>
+        <attribute name="statusbackgroundduration" type="int16">-1</attribute>
+        <attribute name="statusbackground" type="bool">0</attribute>
+        <attribute name="skilltaskingspec" type="string"></attribute>
+        <attribute name="skilltasking" type="int16">0</attribute>
+        <attribute name="skillstealthspec" type="string"></attribute>
+        <attribute name="skillstealth" type="int16">0</attribute>
+        <attribute name="skillsorceryspec" type="string"></attribute>
+        <attribute name="skillsorcery" type="int16">1</attribute>
+        <attribute name="skillpilotspec" type="string"></attribute>
+        <attribute name="skillpilot" type="int16">0</attribute>
+        <attribute name="skillperceptionspec" type="string"></attribute>
+        <attribute name="skillperception" type="int16">1</attribute>
+        <attribute name="skilloutdoorsspec" type="string"></attribute>
+        <attribute name="skilloutdoors" type="int16">0</attribute>
+        <attribute name="skillotherspec" type="string"></attribute>
+        <attribute name="skillother" type="int16">0</attribute>
+        <attribute name="skillinfluencespec" type="string"></attribute>
+        <attribute name="skillinfluence" type="int16">0</attribute>
+        <attribute name="skillfirearmsspec" type="string"></attribute>
+        <attribute name="skillfirearms" type="int16">0</attribute>
+        <attribute name="skillexoticweaponsspec" type="string"></attribute>
+        <attribute name="skillexoticweapons" type="int16">0</attribute>
+        <attribute name="skillengineeringspec" type="string"></attribute>
+        <attribute name="skillengineering" type="int16">0</attribute>
+        <attribute name="skillenchantingspec" type="string"></attribute>
+        <attribute name="skillenchanting" type="int16">0</attribute>
+        <attribute name="skillelectronicsspec" type="string"></attribute>
+        <attribute name="skillelectronics" type="int16">0</attribute>
+        <attribute name="skillcrackingspec" type="string"></attribute>
+        <attribute name="skillcracking" type="int16">0</attribute>
+        <attribute name="skillconjuringspec" type="string"></attribute>
+        <attribute name="skillconjuring" type="int16">0</attribute>
+        <attribute name="skillconspec" type="string"></attribute>
+        <attribute name="skillcon" type="int16">0</attribute>
+        <attribute name="skillclosecombatspec" type="string"></attribute>
+        <attribute name="skillclosecombat" type="int16">1</attribute>
+        <attribute name="skillbiotechspec" type="string"></attribute>
+        <attribute name="skillbiotech" type="int16">0</attribute>
+        <attribute name="skillathleticsspec" type="string"></attribute>
+        <attribute name="skillathletics" type="int16">0</attribute>
+        <attribute name="skillastralspec" type="string"></attribute>
+        <attribute name="skillastral" type="int16">1</attribute>
+        <attribute name="services" type="int16">0</attribute>
+        <attribute name="rcc" type="int16">0</attribute>
+        <attribute name="rating" type="int16">5</attribute>
+        <attribute name="professionalrating" type="int16">0</attribute>
+        <attribute name="physicalminor" type="int16">3</attribute>
+        <attribute name="physicalmajor" type="int16">1</attribute>
+        <attribute name="physicalinitiative" type="int16">3</attribute>
+        <attribute name="physicaldice" type="int16">2</attribute>
+        <attribute name="physicalcondition" type="int16">0</attribute>
+        <attribute name="overwatchscore" type="int16">0</attribute>
+        <attribute name="overflow" type="int16">0</attribute>
+        <attribute name="notes" type="string"></attribute>
+        <attribute name="move" type="string">5/10/+1</attribute>
+        <attribute name="metatype" type="int16">0</attribute>
+        <attribute name="matrixsleaze" type="int16">0</attribute>
+        <attribute name="matrixminor" type="int16">4</attribute>
+        <attribute name="matrixmajor" type="int16">1</attribute>
+        <attribute name="matrixinitiative" type="int16">0</attribute>
+        <attribute name="matrixfirewall" type="int16">1</attribute>
+        <attribute name="matrixdice" type="int16">3</attribute>
+        <attribute name="matrixdevicerating" type="int16">1</attribute>
+        <attribute name="matrixdefenserating" type="int16">0</attribute>
+        <attribute name="matrixdataprocessing" type="int16">1</attribute>
+        <attribute name="matrixcondition" type="int16">0</attribute>
+        <attribute name="matrixattackrating" type="int16">0</attribute>
+        <attribute name="matrixattack" type="int16">0</attribute>
+        <attribute name="initiategrade" type="int16">0</attribute>
+        <attribute name="hitssurprise" type="int16">5</attribute>
+        <attribute name="hitsstealth" type="int16">1</attribute>
+        <attribute name="hitsperception" type="int16">3</attribute>
+        <attribute name="detailstring" type="binary">YnBsaXN0MDDUAQIDBAUGBwpYJHZlcnNpb25ZJGFyY2hpdmVyVCR0b3BYJG9iamVjdHMSAAGGoF8Q
+D05TS2V5ZWRBcmNoaXZlctEICVRyb290gAGjCwwRVSRudWxs0g0ODxBXTlMuZGF0YVYkY2xhc3NPEQQWe1xydGYxXGFuc2lcYW5zaWNwZzEyNTJcY29jb2FydGYyNTEzClxjb2NvYXRleHRzY2FsaW5nMFxjb2NvYXBsYXRmb3JtMHtcZm9udHRibFxmMFxmc3dpc3NcZmNoYXJzZXQwIEhlbHZldGljYS1Cb2xkO1xmMVxmc3dpc3NcZmNoYXJzZXQwIEhlbHZldGljYTt9CntcY29sb3J0Ymw7XHJlZDI1NVxncmVlbjI1NVxibHVlMjU1O1xyZWQyMjVcZ3JlZW4yMzJcYmx1ZTI0MTtccmVkMjU1XGdyZWVuMjU1XGJsdWUyNTU7fQp7XCpcZXhwYW5kZWRjb2xvcnRibDs7XGNzc3JnYlxjOTA1ODhcYzkyOTQxXGM5NTY4NjtcY3NzcmdiXGMxMDAwMDBcYzEwMDAwMFxjMTAwMDAwXGNuYW1lIHRleHRCYWNrZ3JvdW5kQ29sb3I7fQpcZGVmdGFiNzIwClxwYXJkXHBhcmRlZnRhYjcyMFxzYTI0MFxwYXJ0aWdodGVuZmFjdG9yMAoKXGYwXGJcZnMzMiBcY2YyIFxjYjMgRmlzdHMgW0RWIChGb3JjZS8yKVAsIEF0dGFjayBSYXRpbmdzIChGIHggMikvXCc5Ny9cJzk3L1wnOTcvXCc5N10gClxmczI4IFwKXHBhcmRcdHg3MjBcdHgxNDQwXHR4MjE2MFx0eDI4ODBcdHgzNjAwXHR4NDMyMFx0eDUwNDBcdHg1NzYwXHR4NjQ4MFx0eDcyMDBcdHg3OTIwXHR4ODY0MFxwYXJkZWZ0YWI3MjBccGFyZGlybmF0dXJhbFxwYXJ0aWdodGVuZmFjdG9yMAoKXGZzMzIgXGNmMiBPcHRpb25hbCBQb3dlcnMgKDEgcGVyIDMgRm9yY2UgLSByb3VuZCBkb3duKQpcZjFcYjBcZnMyOCBcY2YyIFwKRmVhcgpcZnMyNCBcY2YyIFwKXHBhcmRcdHg3MjBcdHgxNDQwXHR4MjE2MFx0eDI4ODBcdHgzNjAwXHR4NDMyMFx0eDUwNDBcdHg1NzYwXHR4NjQ4MFx0eDcyMDBcdHg3OTIwXHR4ODY0MFxwYXJkZWZ0YWI3MjBccGFyZGlybmF0dXJhbFxwYXJ0aWdodGVuZmFjdG9yMAoKXGZzMjggXGNmMiBJbm5hdGUgU3BlbGwgKEFueSBvbmUgc3BlbGwga25vd24gYnkgdGhlIHN1bW1vbmVyOyBvbmx5IG9uZSBzcGVsbCBlZmZlY3QgbWF5IGJlIGFkZGVkKQpcZnMyNCBcY2YyIFwKClxmczI4IFxjZjIgTW92ZW1lbnQKXGZzMjQgXGNmMiBcCgpcZnMyOCBcY2YyIFBzeWNob2tpbmVzaXMKXGZzMjQgXGNmMiBcCn2AAtISExQVWiRjbGFzc25hbWVYJGNsYXNzZXNdTlNNdXRhYmxlRGF0YaMUFhdWTlNEYXRhWE5TT2JqZWN0AAgAEQAaACQAKQAyADcASQBMAFEAUwBXAF0AYgBqAHEEiwSNBJIEnQSmBLQEuAS/AAAAAAAAAgEAAAAAAAAAGAAAAAAAAAAAAAAAAAAABMg=
+</attribute>
+        <attribute name="defenserating" type="int16">0</attribute>
+        <attribute name="cyberjack" type="int16">0</attribute>
+        <attribute name="cyberdeck" type="int16">0</attribute>
+        <attribute name="currentspeed" type="int32">0</attribute>
+        <attribute name="currentmode" type="int16">0</attribute>
+        <attribute name="currentminor" type="int16">3</attribute>
+        <attribute name="currentmajor" type="int16">1</attribute>
+        <attribute name="currentinit" type="int16">20</attribute>
+        <attribute name="currentedge" type="int16">1</attribute>
+        <attribute name="currentdice" type="int16">2</attribute>
+        <attribute name="commlink" type="int16">0</attribute>
+        <attribute name="charname" type="string">Kindred Spirit</attribute>
+        <attribute name="boxesstun" type="int16">8</attribute>
+        <attribute name="boxesphysical" type="int16">8</attribute>
+        <attribute name="boxesmatrix" type="int16">8</attribute>
+        <attribute name="attrwillpower" type="int16">0</attribute>
+        <attribute name="attrstrength" type="int16">-2</attribute>
+        <attribute name="attrreaction" type="int16">2</attribute>
+        <attribute name="attrmagic" type="int16">0</attribute>
+        <attribute name="attrlogic" type="int16">0</attribute>
+        <attribute name="attrintuition" type="int16">1</attribute>
+        <attribute name="attressence" type="float">0</attribute>
+        <attribute name="attredge" type="int16">0</attribute>
+        <attribute name="attrdrain" type="int16">0</attribute>
+        <attribute name="attrcharisma" type="int16">0</attribute>
+        <attribute name="attrbody" type="int16">1</attribute>
+        <attribute name="attragility" type="int16">0</attribute>
+        <attribute name="astralminor" type="int16">4</attribute>
+        <attribute name="astralmajor" type="int16">1</attribute>
+        <attribute name="astralinitiative" type="int16">0</attribute>
+        <attribute name="astraldice" type="int16">3</attribute>
+        <attribute name="actortype" type="int16">2</attribute>
+        <attribute name="actorcategory" type="int16">0</attribute>
+        <relationship name="adeptpowers" type="0/0" destination="SR6ACTORADEPTPOWER"></relationship>
+        <relationship name="augs" type="0/0" destination="SR6ACTORAUG"></relationship>
+        <relationship name="complexforms" type="0/0" destination="SR6ACTORCOMPLEXFORM"></relationship>
+        <relationship name="echoes" type="0/0" destination="SR6ACTORECHO"></relationship>
+        <relationship name="metamagics" type="0/0" destination="SR6ACTORMETAMAGIC"></relationship>
+        <relationship name="powers" type="0/0" destination="SR6ACTORPOWER" idrefs="z111 z151 z124 z145 z127 z129 z116 z123 z150 z155"></relationship>
+        <relationship name="programs" type="0/0" destination="SR6ACTORPROGRAM"></relationship>
+        <relationship name="qualities" type="0/0" destination="SR6ACTORQUALITY"></relationship>
+        <relationship name="spells" type="0/0" destination="SR6ACTORSPELL"></relationship>
+        <relationship name="weapons" type="0/0" destination="SR6ACTORWEAPON"></relationship>
+    </object>
+    <object type="SR6ACTORPOWER" id="z108">
+        <attribute name="uuid" type="UUID">B0A46D54-6FD6-4E82-B917-C499E9431A66</attribute>
+        <attribute name="option" type="string"></attribute>
+        <relationship name="actor" type="0/1" destination="SR6ACTOR" idrefs="z104"></relationship>
+    </object>
+    <object type="SR6ACTORPOWER" id="z109">
+        <attribute name="uuid" type="UUID">76720380-366A-48B2-8FBD-C0C37065DACD</attribute>
+        <attribute name="option" type="string">Fire</attribute>
+        <relationship name="actor" type="0/1" destination="SR6ACTOR" idrefs="z106"></relationship>
+    </object>
+    <object type="SR6ACTORPOWER" id="z110">
+        <attribute name="uuid" type="UUID">A9591201-8662-42EC-B3CC-B2D5E8FAD3FA</attribute>
+        <attribute name="option" type="string"></attribute>
+        <relationship name="actor" type="0/1" destination="SR6ACTOR" idrefs="z103"></relationship>
+    </object>
+    <object type="SR6ACTORPOWER" id="z111">
+        <attribute name="uuid" type="UUID">3D9EC242-FCC1-4618-B988-73A6C8F146B1</attribute>
+        <attribute name="option" type="string"></attribute>
+        <relationship name="actor" type="0/1" destination="SR6ACTOR" idrefs="z107"></relationship>
+    </object>
+    <object type="SR6ACTORPOWER" id="z112">
+        <attribute name="uuid" type="UUID">C23C77CA-0DF4-4C2D-8005-B55058D8DDDD</attribute>
+        <attribute name="option" type="string"></attribute>
+        <relationship name="actor" type="0/1" destination="SR6ACTOR" idrefs="z104"></relationship>
+    </object>
+    <object type="SR6ACTORPOWER" id="z113">
+        <attribute name="uuid" type="UUID">3D9EC242-FCC1-4618-B988-73A6C8F146B1</attribute>
+        <attribute name="option" type="string"></attribute>
+        <relationship name="actor" type="0/1" destination="SR6ACTOR" idrefs="z103"></relationship>
+    </object>
+    <object type="SR6ACTORPOWER" id="z114">
+        <attribute name="uuid" type="UUID">7DE0D4EC-C338-4D1A-86B1-FA7B2A073877</attribute>
+        <attribute name="option" type="string"></attribute>
+        <relationship name="actor" type="0/1" destination="SR6ACTOR" idrefs="z105"></relationship>
+    </object>
+    <object type="SR6ACTORPOWER" id="z115">
+        <attribute name="uuid" type="UUID">A9591201-8662-42EC-B3CC-B2D5E8FAD3FA</attribute>
+        <attribute name="option" type="string"></attribute>
+        <relationship name="actor" type="0/1" destination="SR6ACTOR" idrefs="z102"></relationship>
+    </object>
+    <object type="SR6ACTORPOWER" id="z116">
+        <attribute name="uuid" type="UUID">A9591201-8662-42EC-B3CC-B2D5E8FAD3FA</attribute>
+        <attribute name="option" type="string"></attribute>
+        <relationship name="actor" type="0/1" destination="SR6ACTOR" idrefs="z107"></relationship>
+    </object>
+    <object type="SR6ACTORPOWER" id="z117">
+        <attribute name="uuid" type="UUID">7DE0D4EC-C338-4D1A-86B1-FA7B2A073877</attribute>
+        <attribute name="option" type="string"></attribute>
+        <relationship name="actor" type="0/1" destination="SR6ACTOR" idrefs="z104"></relationship>
+    </object>
+    <object type="SR6ACTORPOWER" id="z118">
+        <attribute name="uuid" type="UUID">7DE0D4EC-C338-4D1A-86B1-FA7B2A073877</attribute>
+        <attribute name="option" type="string"></attribute>
+        <relationship name="actor" type="0/1" destination="SR6ACTOR" idrefs="z106"></relationship>
+    </object>
+    <object type="SR6ACTORPOWER" id="z119">
+        <attribute name="uuid" type="UUID">6BE2ED51-285F-4A7C-A431-9B3A73DE91F1</attribute>
+        <attribute name="option" type="string"></attribute>
+        <relationship name="actor" type="0/1" destination="SR6ACTOR" idrefs="z102"></relationship>
+    </object>
+    <object type="SR6ACTORPOWER" id="z120">
+        <attribute name="uuid" type="UUID">6AFE5B72-80DC-475F-A390-B3E5CBABDA5D</attribute>
+        <attribute name="option" type="string"></attribute>
+        <relationship name="actor" type="0/1" destination="SR6ACTOR" idrefs="z104"></relationship>
+    </object>
+    <object type="SR6ACTORPOWER" id="z121">
+        <attribute name="uuid" type="UUID">B0A46D54-6FD6-4E82-B917-C499E9431A66</attribute>
+        <attribute name="option" type="string"></attribute>
+        <relationship name="actor" type="0/1" destination="SR6ACTOR" idrefs="z102"></relationship>
+    </object>
+    <object type="SR6ACTORPOWER" id="z122">
+        <attribute name="uuid" type="UUID">7DE0D4EC-C338-4D1A-86B1-FA7B2A073877</attribute>
+        <attribute name="option" type="string"></attribute>
+        <relationship name="actor" type="0/1" destination="SR6ACTOR" idrefs="z103"></relationship>
+    </object>
+    <object type="SR6ACTORPOWER" id="z123">
+        <attribute name="uuid" type="UUID">C065BA66-AE4C-404E-B3C0-DC148956B0E7</attribute>
+        <attribute name="option" type="string"></attribute>
+        <relationship name="actor" type="0/1" destination="SR6ACTOR" idrefs="z107"></relationship>
+    </object>
+    <object type="SR6ACTORPOWER" id="z124">
+        <attribute name="uuid" type="UUID">7DE0D4EC-C338-4D1A-86B1-FA7B2A073877</attribute>
+        <attribute name="option" type="string"></attribute>
+        <relationship name="actor" type="0/1" destination="SR6ACTOR" idrefs="z107"></relationship>
+    </object>
+    <object type="SR6ACTORPOWER" id="z125">
+        <attribute name="uuid" type="UUID">6AFE5B72-80DC-475F-A390-B3E5CBABDA5D</attribute>
+        <attribute name="option" type="string"></attribute>
+        <relationship name="actor" type="0/1" destination="SR6ACTOR" idrefs="z106"></relationship>
+    </object>
+    <object type="SR6ACTORPOWER" id="z126">
+        <attribute name="uuid" type="UUID">6AFE5B72-80DC-475F-A390-B3E5CBABDA5D</attribute>
+        <attribute name="option" type="string"></attribute>
+        <relationship name="actor" type="0/1" destination="SR6ACTOR" idrefs="z105"></relationship>
+    </object>
+    <object type="SR6ACTORPOWER" id="z127">
+        <attribute name="uuid" type="UUID">52E79B27-277D-4F90-8CB5-C2BE6FDD7814</attribute>
+        <attribute name="option" type="string"></attribute>
+        <relationship name="actor" type="0/1" destination="SR6ACTOR" idrefs="z107"></relationship>
+    </object>
+    <object type="SR6ACTORPOWER" id="z128">
+        <attribute name="uuid" type="UUID">6AFE5B72-80DC-475F-A390-B3E5CBABDA5D</attribute>
+        <attribute name="option" type="string"></attribute>
+        <relationship name="actor" type="0/1" destination="SR6ACTOR" idrefs="z103"></relationship>
+    </object>
+    <object type="SR6ACTORPOWER" id="z129">
+        <attribute name="uuid" type="UUID">6AFE5B72-80DC-475F-A390-B3E5CBABDA5D</attribute>
+        <attribute name="option" type="string"></attribute>
+        <relationship name="actor" type="0/1" destination="SR6ACTOR" idrefs="z107"></relationship>
+    </object>
+    <object type="SR6ACTORPOWER" id="z130">
+        <attribute name="uuid" type="UUID">3D9EC242-FCC1-4618-B988-73A6C8F146B1</attribute>
+        <attribute name="option" type="string"></attribute>
+        <relationship name="actor" type="0/1" destination="SR6ACTOR" idrefs="z105"></relationship>
+    </object>
+    <object type="SR6ACTORPOWER" id="z131">
+        <attribute name="uuid" type="UUID">B0A46D54-6FD6-4E82-B917-C499E9431A66</attribute>
+        <attribute name="option" type="string"></attribute>
+        <relationship name="actor" type="0/1" destination="SR6ACTOR" idrefs="z105"></relationship>
+    </object>
+    <object type="SR6ACTORPOWER" id="z132">
+        <attribute name="uuid" type="UUID">49D19E5C-0B8E-4FF5-9BD7-709247F4749C</attribute>
+        <attribute name="option" type="string"></attribute>
+        <relationship name="actor" type="0/1" destination="SR6ACTOR" idrefs="z104"></relationship>
+    </object>
+    <object type="SR6ACTORPOWER" id="z133">
+        <attribute name="uuid" type="UUID">763FB6B8-2526-496A-BBA9-066E19D8337C</attribute>
+        <attribute name="option" type="string"></attribute>
+        <relationship name="actor" type="0/1" destination="SR6ACTOR" idrefs="z104"></relationship>
+    </object>
+    <object type="SR6ACTORPOWER" id="z134">
+        <attribute name="uuid" type="UUID">C23C77CA-0DF4-4C2D-8005-B55058D8DDDD</attribute>
+        <attribute name="option" type="string"></attribute>
+        <relationship name="actor" type="0/1" destination="SR6ACTOR" idrefs="z106"></relationship>
+    </object>
+    <object type="SR6ACTORPOWER" id="z135">
+        <attribute name="uuid" type="UUID">5D3E91CF-1247-4ADF-9358-B6CD7C143E17</attribute>
+        <attribute name="option" type="string">Hrng, LLV, Vis, Smell</attribute>
+        <relationship name="actor" type="0/1" destination="SR6ACTOR" idrefs="z102"></relationship>
+    </object>
+    <object type="SR6ACTORPOWER" id="z136">
+        <attribute name="uuid" type="UUID">3D9EC242-FCC1-4618-B988-73A6C8F146B1</attribute>
+        <attribute name="option" type="string"></attribute>
+        <relationship name="actor" type="0/1" destination="SR6ACTOR" idrefs="z104"></relationship>
+    </object>
+    <object type="SR6ACTORPOWER" id="z137">
+        <attribute name="uuid" type="UUID">118C0772-639E-4D53-B0AD-EB1156632134</attribute>
+        <attribute name="option" type="string">Fire, Severe</attribute>
+        <relationship name="actor" type="0/1" destination="SR6ACTOR" idrefs="z105"></relationship>
+    </object>
+    <object type="SR6ACTORPOWER" id="z138">
+        <attribute name="uuid" type="UUID">49D19E5C-0B8E-4FF5-9BD7-709247F4749C</attribute>
+        <attribute name="option" type="string"></attribute>
+        <relationship name="actor" type="0/1" destination="SR6ACTOR" idrefs="z106"></relationship>
+    </object>
+    <object type="SR6ACTORPOWER" id="z139">
+        <attribute name="uuid" type="UUID">6AFE5B72-80DC-475F-A390-B3E5CBABDA5D</attribute>
+        <attribute name="option" type="string"></attribute>
+        <relationship name="actor" type="0/1" destination="SR6ACTOR" idrefs="z102"></relationship>
+    </object>
+    <object type="SR6ACTORPOWER" id="z140">
+        <attribute name="uuid" type="UUID">66438B9A-2D35-473D-8C7D-61D67B0C6796</attribute>
+        <attribute name="option" type="string"></attribute>
+        <relationship name="actor" type="0/1" destination="SR6ACTOR" idrefs="z105"></relationship>
+    </object>
+    <object type="SR6ACTORPOWER" id="z141">
+        <attribute name="uuid" type="UUID">52E79B27-277D-4F90-8CB5-C2BE6FDD7814</attribute>
+        <attribute name="option" type="string"></attribute>
+        <relationship name="actor" type="0/1" destination="SR6ACTOR" idrefs="z103"></relationship>
+    </object>
+    <object type="SR6ACTORPOWER" id="z142">
+        <attribute name="uuid" type="UUID">763FB6B8-2526-496A-BBA9-066E19D8337C</attribute>
+        <attribute name="option" type="string"></attribute>
+        <relationship name="actor" type="0/1" destination="SR6ACTOR" idrefs="z105"></relationship>
+    </object>
+    <object type="SR6ACTORPOWER" id="z143">
+        <attribute name="uuid" type="UUID">C2568C08-E8CA-471F-BAFF-D170EAB4C40B</attribute>
+        <attribute name="option" type="string"></attribute>
+        <relationship name="actor" type="0/1" destination="SR6ACTOR" idrefs="z102"></relationship>
+    </object>
+    <object type="SR6ACTORPOWER" id="z144">
+        <attribute name="uuid" type="UUID">3CBDDA58-2BC5-49E2-8B45-13ABCF66F974</attribute>
+        <attribute name="option" type="string"></attribute>
+        <relationship name="actor" type="0/1" destination="SR6ACTOR" idrefs="z103"></relationship>
+    </object>
+    <object type="SR6ACTORPOWER" id="z145">
+        <attribute name="uuid" type="UUID">5D3E91CF-1247-4ADF-9358-B6CD7C143E17</attribute>
+        <attribute name="option" type="string">LLV, Thermo</attribute>
+        <relationship name="actor" type="0/1" destination="SR6ACTOR" idrefs="z107"></relationship>
+    </object>
+    <object type="SR6ACTORPOWER" id="z146">
+        <attribute name="uuid" type="UUID">20125AD4-8FE3-42E0-A658-43D8A55232CC</attribute>
+        <attribute name="option" type="string">Fire</attribute>
+        <relationship name="actor" type="0/1" destination="SR6ACTOR" idrefs="z106"></relationship>
+    </object>
+    <object type="SR6ACTORPOWER" id="z147">
+        <attribute name="uuid" type="UUID">73A7FC98-E12B-4BAF-8C1A-5948D89F3F13</attribute>
+        <attribute name="option" type="string"></attribute>
+        <relationship name="actor" type="0/1" destination="SR6ACTOR" idrefs="z106"></relationship>
+    </object>
+    <object type="SR6ACTORPOWER" id="z148">
+        <attribute name="uuid" type="UUID">A9591201-8662-42EC-B3CC-B2D5E8FAD3FA</attribute>
+        <attribute name="option" type="string"></attribute>
+        <relationship name="actor" type="0/1" destination="SR6ACTOR" idrefs="z106"></relationship>
+    </object>
+    <object type="SR6ACTORPOWER" id="z149">
+        <attribute name="uuid" type="UUID">A9591201-8662-42EC-B3CC-B2D5E8FAD3FA</attribute>
+        <attribute name="option" type="string"></attribute>
+        <relationship name="actor" type="0/1" destination="SR6ACTOR" idrefs="z105"></relationship>
+    </object>
+    <object type="SR6ACTORPOWER" id="z150">
+        <attribute name="uuid" type="UUID">C23C77CA-0DF4-4C2D-8005-B55058D8DDDD</attribute>
+        <attribute name="option" type="string"></attribute>
+        <relationship name="actor" type="0/1" destination="SR6ACTOR" idrefs="z107"></relationship>
+    </object>
+    <object type="SR6ACTORPOWER" id="z151">
+        <attribute name="uuid" type="UUID">49D19E5C-0B8E-4FF5-9BD7-709247F4749C</attribute>
+        <attribute name="option" type="string"></attribute>
+        <relationship name="actor" type="0/1" destination="SR6ACTOR" idrefs="z107"></relationship>
+    </object>
+    <object type="SR6ACTORPOWER" id="z152">
+        <attribute name="uuid" type="UUID">7DE0D4EC-C338-4D1A-86B1-FA7B2A073877</attribute>
+        <attribute name="option" type="string"></attribute>
+        <relationship name="actor" type="0/1" destination="SR6ACTOR" idrefs="z102"></relationship>
+    </object>
+    <object type="SR6ACTORPOWER" id="z153">
+        <attribute name="uuid" type="UUID">49D19E5C-0B8E-4FF5-9BD7-709247F4749C</attribute>
+        <attribute name="option" type="string"></attribute>
+        <relationship name="actor" type="0/1" destination="SR6ACTOR" idrefs="z105"></relationship>
+    </object>
+    <object type="SR6ACTORPOWER" id="z154">
+        <attribute name="uuid" type="UUID">7FCB8C73-8DD2-43F2-B062-6024987AB45A</attribute>
+        <attribute name="option" type="string"></attribute>
+        <relationship name="actor" type="0/1" destination="SR6ACTOR" idrefs="z104"></relationship>
+    </object>
+    <object type="SR6ACTORPOWER" id="z155">
+        <attribute name="uuid" type="UUID">763FB6B8-2526-496A-BBA9-066E19D8337C</attribute>
+        <attribute name="option" type="string"></attribute>
+        <relationship name="actor" type="0/1" destination="SR6ACTOR" idrefs="z107"></relationship>
+    </object>
+    <object type="SR6ACTORPOWER" id="z156">
+        <attribute name="uuid" type="UUID">A9591201-8662-42EC-B3CC-B2D5E8FAD3FA</attribute>
+        <attribute name="option" type="string"></attribute>
+        <relationship name="actor" type="0/1" destination="SR6ACTOR" idrefs="z104"></relationship>
+    </object>
+    <object type="SR6ACTORPOWER" id="z157">
+        <attribute name="uuid" type="UUID">B0A46D54-6FD6-4E82-B917-C499E9431A66</attribute>
+        <attribute name="option" type="string"></attribute>
+        <relationship name="actor" type="0/1" destination="SR6ACTOR" idrefs="z103"></relationship>
+    </object>
+    <object type="SR6ACTORWEAPON" id="z158">
+        <attribute name="wirelessmode" type="bool">1</attribute>
+        <attribute name="uuid" type="UUID">E1AFB734-02E5-4F2E-AFE3-AAE8E9FE0345</attribute>
+        <attribute name="tripod" type="bool">0</attribute>
+        <attribute name="smartlink" type="bool">0</attribute>
+        <attribute name="smartfiringplatform" type="bool">0</attribute>
+        <attribute name="silencer" type="bool">0</attribute>
+        <attribute name="shockpad" type="bool">0</attribute>
+        <attribute name="notes" type="string"></attribute>
+        <attribute name="level" type="int16">0</attribute>
+        <attribute name="lasersight" type="bool">0</attribute>
+        <attribute name="imagingscope" type="bool">0</attribute>
+        <attribute name="gyromount" type="bool">0</attribute>
+        <attribute name="gasvent" type="bool">0</attribute>
+        <attribute name="firingmode" type="int16">0</attribute>
+        <attribute name="count" type="int16">1</attribute>
+        <attribute name="bipod" type="bool">0</attribute>
+        <attribute name="ammotype" type="int16">0</attribute>
+        <attribute name="ammosource" type="int16">0</attribute>
+        <attribute name="ammocount" type="int16">0</attribute>
+        <attribute name="airburstlink" type="bool">0</attribute>
+        <relationship name="actor" type="0/1" destination="SR6ACTOR"></relationship>
+    </object>
+    <object type="SR6ACTORWEAPON" id="z159">
+        <attribute name="wirelessmode" type="bool">1</attribute>
+        <attribute name="uuid" type="UUID">9A479029-CA86-441C-9D42-A0F549A0CD33</attribute>
+        <attribute name="tripod" type="bool">0</attribute>
+        <attribute name="smartlink" type="bool">0</attribute>
+        <attribute name="smartfiringplatform" type="bool">0</attribute>
+        <attribute name="silencer" type="bool">0</attribute>
+        <attribute name="shockpad" type="bool">0</attribute>
+        <attribute name="notes" type="string"></attribute>
+        <attribute name="level" type="int16">0</attribute>
+        <attribute name="lasersight" type="bool">0</attribute>
+        <attribute name="imagingscope" type="bool">0</attribute>
+        <attribute name="gyromount" type="bool">0</attribute>
+        <attribute name="gasvent" type="bool">0</attribute>
+        <attribute name="firingmode" type="int16">0</attribute>
+        <attribute name="count" type="int16">1</attribute>
+        <attribute name="bipod" type="bool">0</attribute>
+        <attribute name="ammotype" type="int16">0</attribute>
+        <attribute name="ammosource" type="int16">0</attribute>
+        <attribute name="ammocount" type="int16">0</attribute>
+        <attribute name="airburstlink" type="bool">0</attribute>
+        <relationship name="actor" type="0/1" destination="SR6ACTOR"></relationship>
+    </object>
+    <object type="SR6ACTORWEAPON" id="z160">
+        <attribute name="wirelessmode" type="bool">1</attribute>
+        <attribute name="uuid" type="UUID">FE441E60-0EE5-4549-92AA-D78D5BDDB547</attribute>
+        <attribute name="tripod" type="bool">0</attribute>
+        <attribute name="smartlink" type="bool">0</attribute>
+        <attribute name="smartfiringplatform" type="bool">0</attribute>
+        <attribute name="silencer" type="bool">0</attribute>
+        <attribute name="shockpad" type="bool">0</attribute>
+        <attribute name="notes" type="string"></attribute>
+        <attribute name="level" type="int16">0</attribute>
+        <attribute name="lasersight" type="bool">0</attribute>
+        <attribute name="imagingscope" type="bool">0</attribute>
+        <attribute name="gyromount" type="bool">0</attribute>
+        <attribute name="gasvent" type="bool">0</attribute>
+        <attribute name="firingmode" type="int16">0</attribute>
+        <attribute name="count" type="int16">1</attribute>
+        <attribute name="bipod" type="bool">0</attribute>
+        <attribute name="ammotype" type="int16">0</attribute>
+        <attribute name="ammosource" type="int16">0</attribute>
+        <attribute name="ammocount" type="int16">0</attribute>
+        <attribute name="airburstlink" type="bool">0</attribute>
+        <relationship name="actor" type="0/1" destination="SR6ACTOR"></relationship>
+    </object>
+    <object type="SR6ACTORWEAPON" id="z161">
+        <attribute name="wirelessmode" type="bool">1</attribute>
+        <attribute name="uuid" type="UUID">1057CF6A-9C0E-4579-B139-342808EB4E00</attribute>
+        <attribute name="tripod" type="bool">0</attribute>
+        <attribute name="smartlink" type="bool">0</attribute>
+        <attribute name="smartfiringplatform" type="bool">0</attribute>
+        <attribute name="silencer" type="bool">0</attribute>
+        <attribute name="shockpad" type="bool">0</attribute>
+        <attribute name="notes" type="string"></attribute>
+        <attribute name="level" type="int16">0</attribute>
+        <attribute name="lasersight" type="bool">0</attribute>
+        <attribute name="imagingscope" type="bool">0</attribute>
+        <attribute name="gyromount" type="bool">0</attribute>
+        <attribute name="gasvent" type="bool">0</attribute>
+        <attribute name="firingmode" type="int16">0</attribute>
+        <attribute name="count" type="int16">1</attribute>
+        <attribute name="bipod" type="bool">0</attribute>
+        <attribute name="ammotype" type="int16">0</attribute>
+        <attribute name="ammosource" type="int16">0</attribute>
+        <attribute name="ammocount" type="int16">0</attribute>
+        <attribute name="airburstlink" type="bool">0</attribute>
+        <relationship name="actor" type="0/1" destination="SR6ACTOR"></relationship>
+    </object>
+</database>
