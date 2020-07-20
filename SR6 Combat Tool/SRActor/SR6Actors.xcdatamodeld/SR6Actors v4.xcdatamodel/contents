@@ -1,0 +1,342 @@
+<?xml version="1.0" encoding="UTF-8" standalone="yes"?>
+<model type="com.apple.IDECoreDataModeler.DataModel" documentVersion="1.0" lastSavedToolsVersion="16119" systemVersion="19F101" minimumToolsVersion="Automatic" sourceLanguage="Objective-C" userDefinedModelVersionIdentifier="SR6Actor">
+    <entity name="SR6Actor" representedClassName="SR6Actor" syncable="YES">
+        <attribute name="actorCategory" optional="YES" attributeType="Integer 16" minValueString="0" maxValueString="4" defaultValueString="0"/>
+        <attribute name="actorType" attributeType="Integer 16" minValueString="0" maxValueString="16" defaultValueString="0" usesScalarValueType="YES"/>
+        <attribute name="astralDice" attributeType="Integer 16" minValueString="0" maxValueString="6" defaultValueString="3" usesScalarValueType="YES"/>
+        <attribute name="astralInitiative" attributeType="Integer 16" minValueString="0" maxValueString="200" defaultValueString="10" usesScalarValueType="YES"/>
+        <attribute name="astralMajor" attributeType="Integer 16" minValueString="0" maxValueString="6" defaultValueString="1" usesScalarValueType="YES"/>
+        <attribute name="astralMinor" attributeType="Integer 16" minValueString="0" maxValueString="10" defaultValueString="4" usesScalarValueType="YES"/>
+        <attribute name="attrAgility" attributeType="Integer 16" minValueString="-50" maxValueString="50" defaultValueString="1" usesScalarValueType="YES"/>
+        <attribute name="attrBody" attributeType="Integer 16" minValueString="-50" maxValueString="50" defaultValueString="1" usesScalarValueType="YES"/>
+        <attribute name="attrCharisma" attributeType="Integer 16" minValueString="-50" maxValueString="50" defaultValueString="1" usesScalarValueType="YES"/>
+        <attribute name="attrDrain" attributeType="Integer 16" minValueString="0" maxValueString="12" defaultValueString="0" usesScalarValueType="YES"/>
+        <attribute name="attrEdge" attributeType="Integer 16" minValueString="-50" maxValueString="50" defaultValueString="1" usesScalarValueType="YES"/>
+        <attribute name="attrEssence" attributeType="Float" minValueString="-10" maxValueString="10" defaultValueString="6" usesScalarValueType="YES"/>
+        <attribute name="attrIntuition" attributeType="Integer 16" minValueString="-50" maxValueString="50" defaultValueString="1" usesScalarValueType="YES"/>
+        <attribute name="attrLogic" attributeType="Integer 16" minValueString="-50" maxValueString="50" defaultValueString="1" usesScalarValueType="YES"/>
+        <attribute name="attrMagic" attributeType="Integer 16" minValueString="-50" maxValueString="50" defaultValueString="0" usesScalarValueType="YES"/>
+        <attribute name="attrReaction" attributeType="Integer 16" minValueString="-50" maxValueString="50" defaultValueString="1" usesScalarValueType="YES"/>
+        <attribute name="attrStrength" attributeType="Integer 16" minValueString="-50" maxValueString="50" defaultValueString="1" usesScalarValueType="YES"/>
+        <attribute name="attrWillpower" attributeType="Integer 16" minValueString="-50" maxValueString="50" defaultValueString="1" usesScalarValueType="YES"/>
+        <attribute name="boxesMatrix" attributeType="Integer 16" minValueString="-50" maxValueString="50" defaultValueString="9" usesScalarValueType="YES"/>
+        <attribute name="boxesPhysical" attributeType="Integer 16" minValueString="-50" maxValueString="50" defaultValueString="9" usesScalarValueType="YES"/>
+        <attribute name="boxesStun" attributeType="Integer 16" minValueString="-50" maxValueString="50" defaultValueString="9"/>
+        <attribute name="charName" attributeType="String" minValueString="0" maxValueString="100" defaultValueString="New Char"/>
+        <attribute name="currentDice" attributeType="Integer 16" minValueString="0" maxValueString="6" defaultValueString="1" usesScalarValueType="YES"/>
+        <attribute name="currentEdge" attributeType="Integer 16" minValueString="0" maxValueString="12" defaultValueString="1" usesScalarValueType="YES"/>
+        <attribute name="currentInit" attributeType="Integer 16" minValueString="0" maxValueString="200" defaultValueString="10" usesScalarValueType="YES"/>
+        <attribute name="currentMajor" attributeType="Integer 16" minValueString="0" maxValueString="6" defaultValueString="1" usesScalarValueType="YES"/>
+        <attribute name="currentMinor" attributeType="Integer 16" minValueString="0" maxValueString="10" defaultValueString="2" usesScalarValueType="YES"/>
+        <attribute name="currentMode" attributeType="Integer 16" minValueString="0" maxValueString="3" defaultValueString="0" usesScalarValueType="YES"/>
+        <attribute name="currentSpeed" attributeType="Integer 32" minValueString="0" maxValueString="1000" defaultValueString="0" usesScalarValueType="YES"/>
+        <attribute name="defenseRating" attributeType="Integer 16" minValueString="-100" maxValueString="100" defaultValueString="0" usesScalarValueType="YES"/>
+        <attribute name="detailString" optional="YES" attributeType="Binary" valueTransformerName="AttrStringFromArchive" defaultValueString="" allowsExternalBinaryDataStorage="YES" customClassName="NSAttributedString"/>
+        <attribute name="hitsPerception" attributeType="Integer 16" minValueString="0" maxValueString="20" defaultValueString="0" usesScalarValueType="YES"/>
+        <attribute name="hitsStealth" attributeType="Integer 16" minValueString="0" maxValueString="20" defaultValueString="0" usesScalarValueType="YES"/>
+        <attribute name="hitsSurprise" attributeType="Integer 16" minValueString="0" maxValueString="20" defaultValueString="0" usesScalarValueType="YES"/>
+        <attribute name="matrixAttack" attributeType="Integer 16" minValueString="-20" maxValueString="20" defaultValueString="0" usesScalarValueType="YES"/>
+        <attribute name="matrixCondition" attributeType="Integer 16" minValueString="0" maxValueString="50" defaultValueString="0" usesScalarValueType="YES"/>
+        <attribute name="matrixDataProcessing" attributeType="Integer 16" minValueString="-20" maxValueString="20" defaultValueString="0" usesScalarValueType="YES"/>
+        <attribute name="matrixDeviceRating" attributeType="Integer 16" minValueString="0" maxValueString="20" defaultValueString="1" usesScalarValueType="YES"/>
+        <attribute name="matrixDice" attributeType="Integer 16" minValueString="0" maxValueString="6" defaultValueString="3" usesScalarValueType="YES"/>
+        <attribute name="matrixFirewall" attributeType="Integer 16" minValueString="-20" maxValueString="20" defaultValueString="0" usesScalarValueType="YES"/>
+        <attribute name="matrixInitiative" attributeType="Integer 16" minValueString="-50" maxValueString="50" defaultValueString="10" usesScalarValueType="YES"/>
+        <attribute name="matrixMajor" attributeType="Integer 16" minValueString="0" maxValueString="6" defaultValueString="1" usesScalarValueType="YES"/>
+        <attribute name="matrixMinor" attributeType="Integer 16" minValueString="0" maxValueString="10" defaultValueString="4" usesScalarValueType="YES"/>
+        <attribute name="matrixSleaze" attributeType="Integer 16" minValueString="-20" maxValueString="20" defaultValueString="0" usesScalarValueType="YES"/>
+        <attribute name="move" optional="YES" attributeType="String" minValueString="0" maxValueString="100" defaultValueString="10/15/+1"/>
+        <attribute name="notes" optional="YES" attributeType="String" minValueString="0" maxValueString="200" defaultValueString=""/>
+        <attribute name="overflow" attributeType="Integer 16" minValueString="0" maxValueString="50" defaultValueString="0" usesScalarValueType="YES"/>
+        <attribute name="overwatchScore" attributeType="Integer 16" minValueString="0" maxValueString="100" defaultValueString="0" usesScalarValueType="YES"/>
+        <attribute name="physicalCondition" attributeType="Integer 16" minValueString="0" maxValueString="50" defaultValueString="0" usesScalarValueType="YES"/>
+        <attribute name="physicalDice" attributeType="Integer 16" minValueString="0" maxValueString="6" defaultValueString="1" usesScalarValueType="YES"/>
+        <attribute name="physicalInitiative" attributeType="Integer 16" minValueString="-50" maxValueString="50" defaultValueString="10" usesScalarValueType="YES"/>
+        <attribute name="physicalMajor" attributeType="Integer 16" minValueString="0" maxValueString="6" defaultValueString="1" usesScalarValueType="YES"/>
+        <attribute name="physicalMinor" attributeType="Integer 16" minValueString="0" maxValueString="10" defaultValueString="2" usesScalarValueType="YES"/>
+        <attribute name="picture" optional="YES" attributeType="Binary" allowsExternalBinaryDataStorage="YES"/>
+        <attribute name="rating" attributeType="Integer 16" minValueString="0" maxValueString="20" defaultValueString="0" usesScalarValueType="YES"/>
+        <attribute name="skillAstral" attributeType="Integer 16" minValueString="0" maxValueString="20" defaultValueString="0" usesScalarValueType="YES"/>
+        <attribute name="skillAstralSpec" optional="YES" attributeType="String" minValueString="0" maxValueString="20" defaultValueString=""/>
+        <attribute name="skillAthletics" attributeType="Integer 16" minValueString="0" maxValueString="20" defaultValueString="0" usesScalarValueType="YES"/>
+        <attribute name="skillAthleticsSpec" optional="YES" attributeType="String" minValueString="0" maxValueString="20" defaultValueString=""/>
+        <attribute name="skillBiotech" attributeType="Integer 16" minValueString="0" maxValueString="20" defaultValueString="0" usesScalarValueType="YES"/>
+        <attribute name="skillBiotechSpec" optional="YES" attributeType="String" minValueString="0" maxValueString="20" defaultValueString=""/>
+        <attribute name="skillCloseCombat" attributeType="Integer 16" minValueString="0" maxValueString="20" defaultValueString="0" usesScalarValueType="YES"/>
+        <attribute name="skillCloseCombatSpec" optional="YES" attributeType="String" minValueString="0" maxValueString="20" defaultValueString=""/>
+        <attribute name="skillCon" attributeType="Integer 16" minValueString="0" maxValueString="20" defaultValueString="0" usesScalarValueType="YES"/>
+        <attribute name="skillConjuring" attributeType="Integer 16" minValueString="0" maxValueString="20" defaultValueString="0" usesScalarValueType="YES"/>
+        <attribute name="skillConjuringSpec" optional="YES" attributeType="String" minValueString="0" maxValueString="20" defaultValueString=""/>
+        <attribute name="skillConSpec" optional="YES" attributeType="String" minValueString="0" maxValueString="20" defaultValueString=""/>
+        <attribute name="skillCracking" attributeType="Integer 16" minValueString="0" maxValueString="20" defaultValueString="0" usesScalarValueType="YES"/>
+        <attribute name="skillCrackingSpec" optional="YES" attributeType="String" minValueString="0" maxValueString="20" defaultValueString=""/>
+        <attribute name="skillElectronics" attributeType="Integer 16" minValueString="0" maxValueString="20" defaultValueString="0" usesScalarValueType="YES"/>
+        <attribute name="skillElectronicsSpec" optional="YES" attributeType="String" minValueString="0" maxValueString="20" defaultValueString=""/>
+        <attribute name="skillEnchanting" attributeType="Integer 16" minValueString="0" maxValueString="20" defaultValueString="0" usesScalarValueType="YES"/>
+        <attribute name="skillEnchantingSpec" optional="YES" attributeType="String" minValueString="0" maxValueString="20" defaultValueString=""/>
+        <attribute name="skillEngineering" attributeType="Integer 16" minValueString="0" maxValueString="20" defaultValueString="0" usesScalarValueType="YES"/>
+        <attribute name="skillEngineeringSpec" optional="YES" attributeType="String" minValueString="0" maxValueString="20" defaultValueString=""/>
+        <attribute name="skillExoticWeapons" attributeType="Integer 16" minValueString="0" maxValueString="20" defaultValueString="0" usesScalarValueType="YES"/>
+        <attribute name="skillExoticWeaponsSpec" optional="YES" attributeType="String" minValueString="0" maxValueString="20" defaultValueString=""/>
+        <attribute name="skillFirearms" attributeType="Integer 16" minValueString="0" maxValueString="20" defaultValueString="0" usesScalarValueType="YES"/>
+        <attribute name="skillFirearmsSpec" optional="YES" attributeType="String" minValueString="0" maxValueString="20" defaultValueString=""/>
+        <attribute name="skillInfluence" attributeType="Integer 16" minValueString="0" maxValueString="20" defaultValueString="0" usesScalarValueType="YES"/>
+        <attribute name="skillInfluenceSpec" optional="YES" attributeType="String" minValueString="0" maxValueString="20" defaultValueString=""/>
+        <attribute name="skillOther" attributeType="Integer 16" minValueString="0" maxValueString="20" defaultValueString="0" usesScalarValueType="YES"/>
+        <attribute name="skillOtherSpec" optional="YES" attributeType="String" minValueString="0" maxValueString="20" defaultValueString=""/>
+        <attribute name="skillOutdoors" attributeType="Integer 16" minValueString="0" maxValueString="20" defaultValueString="0" usesScalarValueType="YES"/>
+        <attribute name="skillOutdoorsSpec" optional="YES" attributeType="String" minValueString="0" maxValueString="20" defaultValueString=""/>
+        <attribute name="skillPerception" attributeType="Integer 16" minValueString="0" maxValueString="20" defaultValueString="0" usesScalarValueType="YES"/>
+        <attribute name="skillPerceptionSpec" optional="YES" attributeType="String" minValueString="0" maxValueString="20" defaultValueString=""/>
+        <attribute name="skillPilot" attributeType="Integer 16" minValueString="0" maxValueString="20" defaultValueString="0" usesScalarValueType="YES"/>
+        <attribute name="skillPilotSpec" optional="YES" attributeType="String" minValueString="0" maxValueString="20" defaultValueString=""/>
+        <attribute name="skillSorcery" attributeType="Integer 16" minValueString="0" maxValueString="20" defaultValueString="0" usesScalarValueType="YES"/>
+        <attribute name="skillSorcerySpec" optional="YES" attributeType="String" minValueString="0" maxValueString="20" defaultValueString=""/>
+        <attribute name="skillStealth" attributeType="Integer 16" minValueString="0" maxValueString="20" defaultValueString="0" usesScalarValueType="YES"/>
+        <attribute name="skillStealthSpec" optional="YES" attributeType="String" minValueString="0" maxValueString="20" defaultValueString=""/>
+        <attribute name="skillTasking" attributeType="Integer 16" minValueString="0" maxValueString="20" defaultValueString="0" usesScalarValueType="YES"/>
+        <attribute name="skillTaskingSpec" optional="YES" attributeType="String" minValueString="0" maxValueString="20" defaultValueString=""/>
+        <attribute name="statusBackground" attributeType="Boolean" defaultValueString="NO" usesScalarValueType="YES"/>
+        <attribute name="statusBackgroundDuration" attributeType="Integer 16" minValueString="-1" maxValueString="200" defaultValueString="-1" usesScalarValueType="YES"/>
+        <attribute name="statusBackgroundRating" attributeType="Integer 16" minValueString="-20" maxValueString="20" defaultValueString="1" usesScalarValueType="YES"/>
+        <attribute name="statusBlinded" attributeType="Boolean" defaultValueString="NO" usesScalarValueType="YES"/>
+        <attribute name="statusBlindedDuration" attributeType="Integer 16" minValueString="-1" maxValueString="200" defaultValueString="-1" usesScalarValueType="YES"/>
+        <attribute name="statusBlindedRating" attributeType="Integer 16" minValueString="1" maxValueString="3" defaultValueString="1" usesScalarValueType="YES"/>
+        <attribute name="statusBurning" attributeType="Boolean" defaultValueString="NO" usesScalarValueType="YES"/>
+        <attribute name="statusBurningDuration" attributeType="Integer 16" minValueString="-1" maxValueString="200" defaultValueString="-1" usesScalarValueType="YES"/>
+        <attribute name="statusBurningRating" attributeType="Integer 16" minValueString="1" maxValueString="20" defaultValueString="6" usesScalarValueType="YES"/>
+        <attribute name="statusChilled" attributeType="Boolean" defaultValueString="NO" usesScalarValueType="YES"/>
+        <attribute name="statusChilledDuration" attributeType="Integer 16" minValueString="-1" maxValueString="200" defaultValueString="-1" usesScalarValueType="YES"/>
+        <attribute name="statusConfused" attributeType="Boolean" defaultValueString="NO" usesScalarValueType="YES"/>
+        <attribute name="statusConfusedDuration" attributeType="Integer 16" minValueString="-1" maxValueString="200" defaultValueString="-1" usesScalarValueType="YES"/>
+        <attribute name="statusConfusedRating" attributeType="Integer 16" minValueString="1" maxValueString="20" defaultValueString="6" usesScalarValueType="YES"/>
+        <attribute name="statusCorrossive" attributeType="Boolean" defaultValueString="NO" usesScalarValueType="YES"/>
+        <attribute name="statusCorrossiveDuration" attributeType="Integer 16" minValueString="-1" maxValueString="200" defaultValueString="-1" usesScalarValueType="YES"/>
+        <attribute name="statusCorrossiveRating" attributeType="Integer 16" minValueString="1" maxValueString="20" defaultValueString="6" usesScalarValueType="YES"/>
+        <attribute name="statusCover" attributeType="Boolean" defaultValueString="NO" usesScalarValueType="YES"/>
+        <attribute name="statusCoverDuration" attributeType="Integer 16" minValueString="-1" maxValueString="200" defaultValueString="-1" usesScalarValueType="YES"/>
+        <attribute name="statusCoverRating" attributeType="Integer 16" minValueString="1" maxValueString="4" defaultValueString="1" usesScalarValueType="YES"/>
+        <attribute name="statusDazed" attributeType="Boolean" defaultValueString="NO" usesScalarValueType="YES"/>
+        <attribute name="statusDazedDuration" attributeType="Integer 16" minValueString="-1" maxValueString="200" defaultValueString="-1" usesScalarValueType="YES"/>
+        <attribute name="statusDeafened" attributeType="Boolean" defaultValueString="NO" usesScalarValueType="YES"/>
+        <attribute name="statusDeafenedDuration" attributeType="Integer 16" minValueString="-1" maxValueString="200" defaultValueString="-1" usesScalarValueType="YES"/>
+        <attribute name="statusDeafenedRating" attributeType="Integer 16" minValueString="1" maxValueString="3" defaultValueString="1" usesScalarValueType="YES"/>
+        <attribute name="statusDisabledArm" attributeType="Boolean" defaultValueString="NO" usesScalarValueType="YES"/>
+        <attribute name="statusDisabledArmDuration" attributeType="Integer 16" minValueString="-1" maxValueString="200" defaultValueString="-1" usesScalarValueType="YES"/>
+        <attribute name="statusDisabledArmRating" attributeType="Integer 16" minValueString="1" maxValueString="3" defaultValueString="1" usesScalarValueType="YES"/>
+        <attribute name="statusDisabledLeg" attributeType="Boolean" defaultValueString="NO" usesScalarValueType="YES"/>
+        <attribute name="statusDisabledLegDuration" attributeType="Integer 16" minValueString="-1" maxValueString="200" defaultValueString="-1" usesScalarValueType="YES"/>
+        <attribute name="statusDisabledLegRating" attributeType="Integer 16" minValueString="1" maxValueString="3" defaultValueString="1" usesScalarValueType="YES"/>
+        <attribute name="statusFatigued" attributeType="Boolean" defaultValueString="NO" usesScalarValueType="YES"/>
+        <attribute name="statusFatiguedDuration" attributeType="Integer 16" minValueString="-1" maxValueString="200" defaultValueString="-1" usesScalarValueType="YES"/>
+        <attribute name="statusFatiguedRating" attributeType="Integer 16" minValueString="1" maxValueString="3" defaultValueString="1" usesScalarValueType="YES"/>
+        <attribute name="statusFrightened" attributeType="Boolean" defaultValueString="NO" usesScalarValueType="YES"/>
+        <attribute name="statusFrightenedDuration" attributeType="Integer 16" minValueString="-1" maxValueString="200" defaultValueString="-1" usesScalarValueType="YES"/>
+        <attribute name="statusHazed" attributeType="Boolean" defaultValueString="NO" usesScalarValueType="YES"/>
+        <attribute name="statusHazedDuration" attributeType="Integer 16" minValueString="-1" maxValueString="200" defaultValueString="-1" usesScalarValueType="YES"/>
+        <attribute name="statusHobbled" attributeType="Boolean" defaultValueString="NO" usesScalarValueType="YES"/>
+        <attribute name="statusHobbledDuration" attributeType="Integer 16" minValueString="-1" maxValueString="200" defaultValueString="-1" usesScalarValueType="YES"/>
+        <attribute name="statusImmobilized" attributeType="Boolean" defaultValueString="NO" usesScalarValueType="YES"/>
+        <attribute name="statusImmobilizedDuration" attributeType="Integer 16" minValueString="-1" maxValueString="200" defaultValueString="-1" usesScalarValueType="YES"/>
+        <attribute name="statusInvisible" attributeType="Boolean" defaultValueString="NO" usesScalarValueType="YES"/>
+        <attribute name="statusInvisibleDuration" attributeType="Integer 16" minValueString="-1" maxValueString="200" defaultValueString="-1" usesScalarValueType="YES"/>
+        <attribute name="statusInvisibleImproved" attributeType="Boolean" defaultValueString="NO" usesScalarValueType="YES"/>
+        <attribute name="statusInvisibleImprovedDuration" attributeType="Integer 16" minValueString="-1" maxValueString="200" defaultValueString="-1" usesScalarValueType="YES"/>
+        <attribute name="statusInvisibleImprovedRating" attributeType="Integer 16" minValueString="1" maxValueString="20" defaultValueString="6" usesScalarValueType="YES"/>
+        <attribute name="statusInvisibleRating" attributeType="Integer 16" minValueString="1" maxValueString="20" defaultValueString="6" usesScalarValueType="YES"/>
+        <attribute name="statusMuted" attributeType="Boolean" defaultValueString="NO" usesScalarValueType="YES"/>
+        <attribute name="statusMutedDuration" attributeType="Integer 16" minValueString="-1" maxValueString="200" defaultValueString="-1" usesScalarValueType="YES"/>
+        <attribute name="statusNauseated" attributeType="Boolean" defaultValueString="NO" usesScalarValueType="YES"/>
+        <attribute name="statusNauseatedDuration" attributeType="Integer 16" minValueString="-1" maxValueString="200" defaultValueString="-1" usesScalarValueType="YES"/>
+        <attribute name="statusNoise" attributeType="Boolean" defaultValueString="0" usesScalarValueType="YES"/>
+        <attribute name="statusNoiseDuration" attributeType="Integer 16" minValueString="-1" maxValueString="200" defaultValueString="-1" usesScalarValueType="YES"/>
+        <attribute name="statusNoiseRating" attributeType="Integer 16" minValueString="1" maxValueString="20" defaultValueString="1" usesScalarValueType="YES"/>
+        <attribute name="statusOffBalance" attributeType="Boolean" defaultValueString="NO" usesScalarValueType="YES"/>
+        <attribute name="statusOffBalanceDuration" attributeType="Integer 16" minValueString="-1" maxValueString="200" defaultValueString="-1" usesScalarValueType="YES"/>
+        <attribute name="statusPanicked" attributeType="Boolean" defaultValueString="NO" usesScalarValueType="YES"/>
+        <attribute name="statusPanickedDuration" attributeType="Integer 16" minValueString="-1" maxValueString="200" defaultValueString="-1" usesScalarValueType="YES"/>
+        <attribute name="statusPetrified" attributeType="Boolean" defaultValueString="NO" usesScalarValueType="YES"/>
+        <attribute name="statusPetrifiedDuration" attributeType="Integer 16" minValueString="-1" maxValueString="200" defaultValueString="-1" usesScalarValueType="YES"/>
+        <attribute name="statusPoisoned" attributeType="Boolean" defaultValueString="NO" usesScalarValueType="YES"/>
+        <attribute name="statusPoisonedDuration" attributeType="Integer 16" minValueString="-1" maxValueString="200" defaultValueString="-1" usesScalarValueType="YES"/>
+        <attribute name="statusPoisonedRating" attributeType="Integer 16" minValueString="1" maxValueString="20" defaultValueString="6" usesScalarValueType="YES"/>
+        <attribute name="statusProne" attributeType="Boolean" defaultValueString="NO" usesScalarValueType="YES"/>
+        <attribute name="statusProneDuration" attributeType="Integer 16" minValueString="-1" maxValueString="200" defaultValueString="-1" usesScalarValueType="YES"/>
+        <attribute name="statusSilent" attributeType="Boolean" defaultValueString="NO" usesScalarValueType="YES"/>
+        <attribute name="statusSilentDuration" attributeType="Integer 16" minValueString="-1" maxValueString="200" defaultValueString="-1" usesScalarValueType="YES"/>
+        <attribute name="statusSilentImproved" attributeType="Boolean" defaultValueString="NO" usesScalarValueType="YES"/>
+        <attribute name="statusSilentImprovedDuration" attributeType="Integer 16" minValueString="-1" maxValueString="200" defaultValueString="-1" usesScalarValueType="YES"/>
+        <attribute name="statusSilentImprovedRating" attributeType="Integer 16" minValueString="1" maxValueString="20" defaultValueString="6" usesScalarValueType="YES"/>
+        <attribute name="statusSilentRating" attributeType="Integer 16" minValueString="1" maxValueString="20" defaultValueString="6" usesScalarValueType="YES"/>
+        <attribute name="statusStilled" attributeType="Boolean" defaultValueString="NO" usesScalarValueType="YES"/>
+        <attribute name="statusStilledDuration" attributeType="Integer 16" minValueString="-1" maxValueString="200" defaultValueString="-1" usesScalarValueType="YES"/>
+        <attribute name="statusWet" attributeType="Boolean" defaultValueString="NO" usesScalarValueType="YES"/>
+        <attribute name="statusWetDuration" attributeType="Integer 16" minValueString="-1" maxValueString="200" defaultValueString="-1" usesScalarValueType="YES"/>
+        <attribute name="statusZapped" attributeType="Boolean" defaultValueString="NO" usesScalarValueType="YES"/>
+        <attribute name="statusZappedDuration" attributeType="Integer 16" minValueString="-1" maxValueString="200" defaultValueString="-1" usesScalarValueType="YES"/>
+        <attribute name="stunCondition" attributeType="Integer 16" minValueString="0" maxValueString="50" defaultValueString="0" usesScalarValueType="YES"/>
+        <attribute name="vehAccel" attributeType="Integer 16" minValueString="0" maxValueString="200" defaultValueString="0" usesScalarValueType="YES"/>
+        <attribute name="vehArmor" attributeType="Integer 16" minValueString="0" maxValueString="50" defaultValueString="0" usesScalarValueType="YES"/>
+        <attribute name="vehBody" attributeType="Integer 16" minValueString="0" maxValueString="50" defaultValueString="0" usesScalarValueType="YES"/>
+        <attribute name="vehHandling" optional="YES" attributeType="String" maxValueString="8" defaultValueString=""/>
+        <attribute name="vehPilot" attributeType="Integer 16" minValueString="0" maxValueString="20" defaultValueString="0" usesScalarValueType="YES"/>
+        <attribute name="vehSeat" attributeType="Integer 16" minValueString="0" maxValueString="1000" defaultValueString="0" usesScalarValueType="YES"/>
+        <attribute name="vehSensor" attributeType="Integer 16" minValueString="0" maxValueString="20" defaultValueString="0" usesScalarValueType="YES"/>
+        <attribute name="vehSpeedInterval" attributeType="Integer 16" minValueString="0" maxValueString="100" defaultValueString="0" usesScalarValueType="YES"/>
+        <attribute name="vehTopSpeed" attributeType="Integer 16" minValueString="0" maxValueString="2000" defaultValueString="0" usesScalarValueType="YES"/>
+        <relationship name="qualities" optional="YES" toMany="YES" deletionRule="Cascade" destinationEntity="SR6ActorQuality" inverseName="actor" inverseEntity="SR6ActorQuality"/>
+        <relationship name="spells" optional="YES" toMany="YES" deletionRule="Cascade" destinationEntity="SR6ActorSpell" inverseName="actor" inverseEntity="SR6ActorSpell"/>
+    </entity>
+    <entity name="SR6ActorQuality" representedClassName="SR6ActorQuality" syncable="YES">
+        <attribute name="level" optional="YES" attributeType="Integer 16" minValueString="0" maxValueString="20" defaultValueString="0" usesScalarValueType="YES"/>
+        <attribute name="option" optional="YES" attributeType="String"/>
+        <attribute name="uuid" attributeType="UUID" usesScalarValueType="NO"/>
+        <relationship name="actor" optional="YES" maxCount="1" deletionRule="Nullify" destinationEntity="SR6Actor" inverseName="qualities" inverseEntity="SR6Actor"/>
+        <fetchedProperty name="qualityInfo" optional="YES" transient="YES">
+            <fetchRequest name="fetchedPropertyFetchRequest" entity="SR6Quality" predicateString="qualityUUID == $FETCH_SOURCE.uuid"/>
+        </fetchedProperty>
+    </entity>
+    <entity name="SR6ActorSpell" representedClassName="SR6ActorSpell" syncable="YES">
+        <attribute name="option" optional="YES" attributeType="String" defaultValueString=""/>
+        <attribute name="uuid" attributeType="UUID" usesScalarValueType="NO"/>
+        <relationship name="actor" optional="YES" maxCount="1" deletionRule="Nullify" destinationEntity="SR6Actor" inverseName="spells" inverseEntity="SR6Actor"/>
+        <fetchedProperty name="spellInfo" optional="YES">
+            <fetchRequest name="fetchedPropertyFetchRequest" entity="SR6Spell" predicateString="spellUUID == $FETCH_SOURCE.uuid"/>
+        </fetchedProperty>
+    </entity>
+    <entity name="SR6AdeptPower" representedClassName="SR6AdeptPower" syncable="YES">
+        <attribute name="activation" attributeType="Integer 16" minValueString="0" maxValueString="10" defaultValueString="0" usesScalarValueType="YES"/>
+        <attribute name="adeptPowerUUID" attributeType="UUID" usesScalarValueType="YES"/>
+        <attribute name="cost" attributeType="Decimal" minValueString="0" maxValueString="20" defaultValueString="0.0"/>
+        <attribute name="level" attributeType="Boolean" defaultValueString="NO" usesScalarValueType="YES"/>
+        <attribute name="longDesc" optional="YES" attributeType="String"/>
+        <attribute name="maxLevel" attributeType="Integer 16" minValueString="0" maxValueString="20" defaultValueString="0" usesScalarValueType="YES"/>
+        <attribute name="name" attributeType="String"/>
+        <attribute name="optionName" optional="YES" attributeType="String"/>
+        <attribute name="reference" optional="YES" attributeType="String"/>
+        <attribute name="shortDesc" optional="YES" attributeType="String"/>
+    </entity>
+    <entity name="SR6Aug" representedClassName="SR6Aug" syncable="YES">
+        <attribute name="augUUID" attributeType="UUID" usesScalarValueType="YES"/>
+        <attribute name="availLetter" attributeType="Integer 16" minValueString="0" maxValueString="10" defaultValueString="0" usesScalarValueType="YES"/>
+        <attribute name="availNumber" attributeType="Integer 16" minValueString="0" maxValueString="100" defaultValueString="0" usesScalarValueType="YES"/>
+        <attribute name="capacity" attributeType="Integer 16" minValueString="-40" maxValueString="40" defaultValueString="0" usesScalarValueType="YES"/>
+        <attribute name="category" attributeType="Integer 16" minValueString="0" maxValueString="10" defaultValueString="0" usesScalarValueType="YES"/>
+        <attribute name="cost" attributeType="Integer 32" minValueString="0" maxValueString="2000000000" defaultValueString="0" usesScalarValueType="YES"/>
+        <attribute name="essence" attributeType="Decimal" minValueString="0" maxValueString="10" defaultValueString="0.0"/>
+        <attribute name="essenceLevels" attributeType="Boolean" defaultValueString="NO" usesScalarValueType="NO"/>
+        <attribute name="level" attributeType="Boolean" defaultValueString="NO" usesScalarValueType="YES"/>
+        <attribute name="longDesc" optional="YES" attributeType="String"/>
+        <attribute name="maxLevel" attributeType="Integer 16" minValueString="0" maxValueString="20" defaultValueString="0" usesScalarValueType="YES"/>
+        <attribute name="name" attributeType="String"/>
+        <attribute name="optionName" optional="YES" attributeType="String"/>
+        <attribute name="reference" optional="YES" attributeType="String"/>
+        <attribute name="shortDesc" optional="YES" attributeType="String"/>
+    </entity>
+    <entity name="SR6ComplexForm" representedClassName="SR6ComplexForm" syncable="YES">
+        <attribute name="complexFormUUID" attributeType="UUID" usesScalarValueType="YES"/>
+        <attribute name="duration" attributeType="Integer 16" minValueString="0" maxValueString="10" defaultValueString="0" usesScalarValueType="YES"/>
+        <attribute name="fade" attributeType="Integer 16" minValueString="0" maxValueString="10" defaultValueString="0" usesScalarValueType="YES"/>
+        <attribute name="longDesc" optional="YES" attributeType="String" allowsExternalBinaryDataStorage="YES"/>
+        <attribute name="name" attributeType="String"/>
+        <attribute name="optionName" optional="YES" attributeType="String"/>
+        <attribute name="reference" optional="YES" attributeType="String"/>
+        <attribute name="shortDesc" optional="YES" attributeType="String"/>
+    </entity>
+    <entity name="SR6Echo" representedClassName="SR6Echo" syncable="YES">
+        <attribute name="echoUUID" attributeType="UUID" usesScalarValueType="YES"/>
+        <attribute name="level" attributeType="Boolean" defaultValueString="NO" usesScalarValueType="YES"/>
+        <attribute name="longDesc" optional="YES" attributeType="String"/>
+        <attribute name="maxLevel" attributeType="Integer 16" minValueString="0" maxValueString="20" defaultValueString="0" usesScalarValueType="YES"/>
+        <attribute name="name" attributeType="String"/>
+        <attribute name="optionName" optional="YES" attributeType="String"/>
+        <attribute name="reference" optional="YES" attributeType="String"/>
+        <attribute name="shortDesc" optional="YES" attributeType="String"/>
+    </entity>
+    <entity name="SR6Mentor" representedClassName="SR6Mentor" syncable="YES">
+        <attribute name="advantageAdept" attributeType="String"/>
+        <attribute name="advantageAll" attributeType="String"/>
+        <attribute name="advantageMagician" optional="YES" attributeType="String"/>
+        <attribute name="disadvantage" optional="YES" attributeType="String"/>
+        <attribute name="longDesc" optional="YES" attributeType="String"/>
+        <attribute name="mentorUUID" attributeType="UUID" usesScalarValueType="YES"/>
+        <attribute name="name" attributeType="String"/>
+        <attribute name="optionName" optional="YES" attributeType="String"/>
+        <attribute name="reference" optional="YES" attributeType="String"/>
+        <attribute name="shortDesc" optional="YES" attributeType="String"/>
+        <attribute name="similar" optional="YES" attributeType="String"/>
+    </entity>
+    <entity name="SR6Metamagic" representedClassName="SR6Metamagic" syncable="YES">
+        <attribute name="level" optional="YES" attributeType="Boolean" defaultValueString="0" usesScalarValueType="YES"/>
+        <attribute name="longDesc" optional="YES" attributeType="String"/>
+        <attribute name="maxLevel" optional="YES" attributeType="Integer 16" defaultValueString="0" usesScalarValueType="YES"/>
+        <attribute name="metamagicUUID" attributeType="UUID" usesScalarValueType="YES"/>
+        <attribute name="name" attributeType="String"/>
+        <attribute name="optionName" optional="YES" attributeType="String"/>
+        <attribute name="reference" optional="YES" attributeType="String"/>
+        <attribute name="shortDesc" optional="YES" attributeType="String"/>
+    </entity>
+    <entity name="SR6Power" representedClassName="SR6Power" syncable="YES">
+        <attribute name="action" attributeType="Integer 16" minValueString="0" maxValueString="10" defaultValueString="0" usesScalarValueType="YES"/>
+        <attribute name="category" attributeType="Integer 16" minValueString="0" maxValueString="20" defaultValueString="0" usesScalarValueType="YES"/>
+        <attribute name="duration" attributeType="Integer 16" minValueString="0" maxValueString="10" defaultValueString="0" usesScalarValueType="YES"/>
+        <attribute name="longDesc" optional="YES" attributeType="String"/>
+        <attribute name="name" attributeType="String"/>
+        <attribute name="optionName" optional="YES" attributeType="String"/>
+        <attribute name="powerUUID" attributeType="UUID" usesScalarValueType="YES"/>
+        <attribute name="range" attributeType="Integer 16" minValueString="0" maxValueString="10" defaultValueString="0" usesScalarValueType="YES"/>
+        <attribute name="reference" optional="YES" attributeType="String"/>
+        <attribute name="shortDesc" optional="YES" attributeType="String"/>
+        <attribute name="type" attributeType="Integer 16" minValueString="0" maxValueString="10" defaultValueString="0" usesScalarValueType="YES"/>
+    </entity>
+    <entity name="SR6Program" representedClassName="SR6Program" syncable="YES">
+        <attribute name="category" attributeType="Integer 16" minValueString="0" maxValueString="10" defaultValueString="0" usesScalarValueType="YES"/>
+        <attribute name="longDesc" optional="YES" attributeType="String"/>
+        <attribute name="name" attributeType="String"/>
+        <attribute name="optionName" optional="YES" attributeType="String"/>
+        <attribute name="programUUID" attributeType="UUID" usesScalarValueType="YES"/>
+        <attribute name="reference" optional="YES" attributeType="String"/>
+        <attribute name="shortDesc" optional="YES" attributeType="String"/>
+    </entity>
+    <entity name="SR6Quality" representedClassName="SR6Quality" syncable="YES">
+        <attribute name="karma" attributeType="Integer 16" minValueString="0" maxValueString="20" defaultValueString="0.0" usesScalarValueType="YES"/>
+        <attribute name="level" attributeType="Boolean" defaultValueString="NO" usesScalarValueType="YES"/>
+        <attribute name="longDesc" optional="YES" attributeType="String"/>
+        <attribute name="maxLevel" attributeType="Integer 16" minValueString="0" maxValueString="20" defaultValueString="0" usesScalarValueType="YES"/>
+        <attribute name="name" attributeType="String"/>
+        <attribute name="negative" attributeType="Boolean" defaultValueString="NO" usesScalarValueType="YES"/>
+        <attribute name="optionName" optional="YES" attributeType="String"/>
+        <attribute name="qualityUUID" attributeType="UUID" usesScalarValueType="YES"/>
+        <attribute name="reference" optional="YES" attributeType="String"/>
+        <attribute name="shortDesc" optional="YES" attributeType="String"/>
+    </entity>
+    <entity name="SR6Spell" representedClassName="SR6Spell" syncable="YES">
+        <attribute name="category" attributeType="Integer 16" minValueString="0" maxValueString="10" defaultValueString="0" usesScalarValueType="YES"/>
+        <attribute name="damage" attributeType="Integer 16" minValueString="0" maxValueString="10" defaultValueString="0" usesScalarValueType="YES"/>
+        <attribute name="drain" attributeType="Integer 16" minValueString="0" maxValueString="10" defaultValueString="0" usesScalarValueType="YES"/>
+        <attribute name="duration" attributeType="Integer 16" minValueString="0" maxValueString="10" defaultValueString="0" usesScalarValueType="YES"/>
+        <attribute name="longDesc" optional="YES" attributeType="String" allowsExternalBinaryDataStorage="YES"/>
+        <attribute name="name" attributeType="String"/>
+        <attribute name="optionName" optional="YES" attributeType="String"/>
+        <attribute name="range" attributeType="Integer 16" minValueString="0" maxValueString="10" defaultValueString="0" usesScalarValueType="YES"/>
+        <attribute name="reference" optional="YES" attributeType="String"/>
+        <attribute name="shortDesc" optional="YES" attributeType="String"/>
+        <attribute name="spellUUID" attributeType="UUID" usesScalarValueType="YES"/>
+        <attribute name="type" attributeType="Integer 16" minValueString="0" maxValueString="10" defaultValueString="0" usesScalarValueType="YES"/>
+    </entity>
+    <elements>
+        <element name="SR6Actor" positionX="-63" positionY="-18" width="128" height="2818"/>
+        <element name="SR6ActorQuality" positionX="72" positionY="153" width="128" height="131"/>
+        <element name="SR6ActorSpell" positionX="153" positionY="144" width="128" height="116"/>
+        <element name="SR6AdeptPower" positionX="99" positionY="180" width="128" height="193"/>
+        <element name="SR6Aug" positionX="54" positionY="135" width="128" height="268"/>
+        <element name="SR6ComplexForm" positionX="90" positionY="171" width="128" height="163"/>
+        <element name="SR6Echo" positionX="54" positionY="135" width="128" height="163"/>
+        <element name="SR6Mentor" positionX="81" positionY="162" width="128" height="208"/>
+        <element name="SR6Metamagic" positionX="108" positionY="189" width="128" height="163"/>
+        <element name="SR6Power" positionX="63" positionY="144" width="128" height="208"/>
+        <element name="SR6Program" positionX="72" positionY="153" width="128" height="148"/>
+        <element name="SR6Quality" positionX="63" positionY="144" width="128" height="193"/>
+        <element name="SR6Spell" positionX="162" positionY="153" width="128" height="223"/>
+    </elements>
+</model>
