@@ -1,0 +1,135 @@
+<?xml version="1.0" encoding="UTF-8" standalone="yes"?>
+<model type="com.apple.IDECoreDataModeler.DataModel" documentVersion="1.0" lastSavedToolsVersion="16119" systemVersion="19F101" minimumToolsVersion="Automatic" sourceLanguage="Objective-C" userDefinedModelVersionIdentifier="">
+    <entity name="SR6AdeptPower" representedClassName="SR6AdeptPower" syncable="YES">
+        <attribute name="activation" attributeType="Integer 16" minValueString="0" maxValueString="10" defaultValueString="0" usesScalarValueType="YES"/>
+        <attribute name="adeptPowerUUID" attributeType="UUID" usesScalarValueType="YES"/>
+        <attribute name="cost" attributeType="Decimal" minValueString="0" maxValueString="20" defaultValueString="0.0"/>
+        <attribute name="level" attributeType="Boolean" defaultValueString="NO" usesScalarValueType="YES"/>
+        <attribute name="longDesc" optional="YES" attributeType="String"/>
+        <attribute name="maxLevel" attributeType="Integer 16" minValueString="0" maxValueString="20" defaultValueString="0" usesScalarValueType="YES"/>
+        <attribute name="name" attributeType="String"/>
+        <attribute name="optionName" optional="YES" attributeType="String"/>
+        <attribute name="reference" optional="YES" attributeType="String"/>
+        <attribute name="shortDesc" optional="YES" attributeType="String"/>
+    </entity>
+    <entity name="SR6Aug" representedClassName="SR6Aug" syncable="YES">
+        <attribute name="augUUID" attributeType="UUID" usesScalarValueType="YES"/>
+        <attribute name="availLetter" attributeType="Integer 16" minValueString="0" maxValueString="10" defaultValueString="0" usesScalarValueType="YES"/>
+        <attribute name="availNumber" attributeType="Integer 16" minValueString="0" maxValueString="100" defaultValueString="0" usesScalarValueType="YES"/>
+        <attribute name="capacity" attributeType="Integer 16" minValueString="-40" maxValueString="40" defaultValueString="0" usesScalarValueType="YES"/>
+        <attribute name="category" attributeType="Integer 16" minValueString="0" maxValueString="10" defaultValueString="0" usesScalarValueType="YES"/>
+        <attribute name="cost" attributeType="Integer 32" minValueString="0" maxValueString="2000000000" defaultValueString="0" usesScalarValueType="YES"/>
+        <attribute name="essence" attributeType="Decimal" minValueString="0" maxValueString="10" defaultValueString="0.0"/>
+        <attribute name="essenceLevels" attributeType="Boolean" defaultValueString="NO" usesScalarValueType="NO"/>
+        <attribute name="level" attributeType="Boolean" defaultValueString="NO" usesScalarValueType="YES"/>
+        <attribute name="longDesc" optional="YES" attributeType="String"/>
+        <attribute name="maxLevel" attributeType="Integer 16" minValueString="0" maxValueString="20" defaultValueString="0" usesScalarValueType="YES"/>
+        <attribute name="name" attributeType="String"/>
+        <attribute name="optionName" optional="YES" attributeType="String"/>
+        <attribute name="reference" optional="YES" attributeType="String"/>
+        <attribute name="shortDesc" optional="YES" attributeType="String"/>
+    </entity>
+    <entity name="SR6ComplexForm" representedClassName="SR6ComplexForm" syncable="YES">
+        <attribute name="complexFormUUID" attributeType="UUID" usesScalarValueType="YES"/>
+        <attribute name="duration" attributeType="Integer 16" minValueString="0" maxValueString="10" defaultValueString="0" usesScalarValueType="YES"/>
+        <attribute name="fade" attributeType="Integer 16" minValueString="0" maxValueString="10" defaultValueString="0" usesScalarValueType="YES"/>
+        <attribute name="longDesc" optional="YES" attributeType="String" allowsExternalBinaryDataStorage="YES"/>
+        <attribute name="name" attributeType="String"/>
+        <attribute name="optionName" optional="YES" attributeType="String"/>
+        <attribute name="reference" optional="YES" attributeType="String"/>
+        <attribute name="shortDesc" optional="YES" attributeType="String"/>
+    </entity>
+    <entity name="SR6Echo" representedClassName="SR6Echo" syncable="YES">
+        <attribute name="echoUUID" attributeType="UUID" usesScalarValueType="YES"/>
+        <attribute name="level" attributeType="Boolean" defaultValueString="NO" usesScalarValueType="YES"/>
+        <attribute name="longDesc" optional="YES" attributeType="String"/>
+        <attribute name="maxLevel" attributeType="Integer 16" minValueString="0" maxValueString="20" defaultValueString="0" usesScalarValueType="YES"/>
+        <attribute name="name" attributeType="String"/>
+        <attribute name="optionName" optional="YES" attributeType="String"/>
+        <attribute name="reference" optional="YES" attributeType="String"/>
+        <attribute name="shortDesc" optional="YES" attributeType="String"/>
+    </entity>
+    <entity name="SR6Mentor" representedClassName="SR6Mentor" syncable="YES">
+        <attribute name="advantageAdept" attributeType="String"/>
+        <attribute name="advantageAll" attributeType="String"/>
+        <attribute name="advantageMagician" optional="YES" attributeType="String"/>
+        <attribute name="disadvantage" optional="YES" attributeType="String"/>
+        <attribute name="longDesc" optional="YES" attributeType="String"/>
+        <attribute name="mentorUUID" attributeType="UUID" usesScalarValueType="YES"/>
+        <attribute name="name" attributeType="String"/>
+        <attribute name="optionName" optional="YES" attributeType="String"/>
+        <attribute name="reference" optional="YES" attributeType="String"/>
+        <attribute name="shortDesc" optional="YES" attributeType="String"/>
+        <attribute name="similar" optional="YES" attributeType="String"/>
+    </entity>
+    <entity name="SR6Metamagic" representedClassName="SR6Metamagic" syncable="YES">
+        <attribute name="level" optional="YES" attributeType="Boolean" defaultValueString="0" usesScalarValueType="YES"/>
+        <attribute name="longDesc" optional="YES" attributeType="String"/>
+        <attribute name="maxLevel" optional="YES" attributeType="Integer 16" defaultValueString="0" usesScalarValueType="YES"/>
+        <attribute name="metamagicUUID" attributeType="UUID" usesScalarValueType="YES"/>
+        <attribute name="name" attributeType="String"/>
+        <attribute name="optionName" optional="YES" attributeType="String"/>
+        <attribute name="reference" optional="YES" attributeType="String"/>
+        <attribute name="shortDesc" optional="YES" attributeType="String"/>
+    </entity>
+    <entity name="SR6Power" representedClassName="SR6Power" syncable="YES">
+        <attribute name="action" attributeType="Integer 16" minValueString="0" maxValueString="10" defaultValueString="0" usesScalarValueType="YES"/>
+        <attribute name="category" attributeType="Integer 16" minValueString="0" maxValueString="20" defaultValueString="0" usesScalarValueType="YES"/>
+        <attribute name="duration" attributeType="Integer 16" minValueString="0" maxValueString="10" defaultValueString="0" usesScalarValueType="YES"/>
+        <attribute name="longDesc" optional="YES" attributeType="String"/>
+        <attribute name="name" attributeType="String"/>
+        <attribute name="optionName" optional="YES" attributeType="String"/>
+        <attribute name="powerUUID" attributeType="UUID" usesScalarValueType="YES"/>
+        <attribute name="range" attributeType="Integer 16" minValueString="0" maxValueString="10" defaultValueString="0" usesScalarValueType="YES"/>
+        <attribute name="reference" optional="YES" attributeType="String"/>
+        <attribute name="shortDesc" optional="YES" attributeType="String"/>
+        <attribute name="type" attributeType="Integer 16" minValueString="0" maxValueString="10" defaultValueString="0" usesScalarValueType="YES"/>
+    </entity>
+    <entity name="SR6Program" representedClassName="SR6Program" syncable="YES">
+        <attribute name="category" attributeType="Integer 16" minValueString="0" maxValueString="10" defaultValueString="0" usesScalarValueType="YES"/>
+        <attribute name="longDesc" optional="YES" attributeType="String"/>
+        <attribute name="name" attributeType="String"/>
+        <attribute name="optionName" optional="YES" attributeType="String"/>
+        <attribute name="programUUID" attributeType="UUID" usesScalarValueType="YES"/>
+        <attribute name="reference" optional="YES" attributeType="String"/>
+        <attribute name="shortDesc" optional="YES" attributeType="String"/>
+    </entity>
+    <entity name="SR6Quality" representedClassName="SR6Quality" syncable="YES">
+        <attribute name="karma" attributeType="Integer 16" minValueString="0" maxValueString="20" defaultValueString="0.0" usesScalarValueType="YES"/>
+        <attribute name="level" attributeType="Boolean" defaultValueString="NO" usesScalarValueType="YES"/>
+        <attribute name="longDesc" optional="YES" attributeType="String"/>
+        <attribute name="maxLevel" attributeType="Integer 16" minValueString="0" maxValueString="20" defaultValueString="0" usesScalarValueType="YES"/>
+        <attribute name="name" attributeType="String"/>
+        <attribute name="negative" attributeType="Boolean" defaultValueString="NO" usesScalarValueType="YES"/>
+        <attribute name="optionName" optional="YES" attributeType="String"/>
+        <attribute name="qualityUUID" attributeType="UUID" usesScalarValueType="YES"/>
+        <attribute name="reference" optional="YES" attributeType="String"/>
+        <attribute name="shortDesc" optional="YES" attributeType="String"/>
+    </entity>
+    <entity name="SR6Spell" representedClassName="SR6Spell" syncable="YES">
+        <attribute name="category" attributeType="Integer 16" minValueString="0" maxValueString="10" defaultValueString="0" usesScalarValueType="YES"/>
+        <attribute name="damage" attributeType="Integer 16" minValueString="0" maxValueString="10" defaultValueString="0" usesScalarValueType="YES"/>
+        <attribute name="drain" attributeType="Integer 16" minValueString="0" maxValueString="10" defaultValueString="0" usesScalarValueType="YES"/>
+        <attribute name="duration" attributeType="Integer 16" minValueString="0" maxValueString="10" defaultValueString="0" usesScalarValueType="YES"/>
+        <attribute name="longDesc" optional="YES" attributeType="String" allowsExternalBinaryDataStorage="YES"/>
+        <attribute name="name" attributeType="String"/>
+        <attribute name="optionName" optional="YES" attributeType="String"/>
+        <attribute name="range" attributeType="Integer 16" minValueString="0" maxValueString="10" defaultValueString="0" usesScalarValueType="YES"/>
+        <attribute name="reference" optional="YES" attributeType="String"/>
+        <attribute name="shortDesc" optional="YES" attributeType="String"/>
+        <attribute name="spellUUID" attributeType="UUID" usesScalarValueType="YES"/>
+        <attribute name="type" attributeType="Integer 16" minValueString="0" maxValueString="10" defaultValueString="0" usesScalarValueType="YES"/>
+    </entity>
+    <elements>
+        <element name="SR6AdeptPower" positionX="-63" positionY="72" width="128" height="193"/>
+        <element name="SR6Aug" positionX="-36" positionY="144" width="128" height="268"/>
+        <element name="SR6ComplexForm" positionX="-36" positionY="153" width="128" height="163"/>
+        <element name="SR6Echo" positionX="-18" positionY="162" width="128" height="163"/>
+        <element name="SR6Mentor" positionX="-54" positionY="135" width="128" height="208"/>
+        <element name="SR6Metamagic" positionX="-63" positionY="126" width="128" height="163"/>
+        <element name="SR6Power" positionX="-63" positionY="99" width="128" height="208"/>
+        <element name="SR6Quality" positionX="-63" positionY="126" width="128" height="193"/>
+        <element name="SR6Spell" positionX="-63" positionY="-18" width="128" height="223"/>
+        <element name="SR6Program" positionX="-36" positionY="135" width="128" height="148"/>
+    </elements>
+</model>

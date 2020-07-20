@@ -1,0 +1,22 @@
+<?xml version="1.0" encoding="UTF-8" standalone="yes"?>
+<model type="com.apple.IDECoreDataModeler.DataModel" documentVersion="1.0" lastSavedToolsVersion="16119" systemVersion="19F101" minimumToolsVersion="Automatic" sourceLanguage="Objective-C" userDefinedModelVersionIdentifier="">
+    <entity name="SR6Spell" representedClassName="SR6Spell" syncable="YES">
+        <attribute name="category" attributeType="Integer 16" minValueString="0" maxValueString="10" defaultValueString="0" usesScalarValueType="YES"/>
+        <attribute name="damage" attributeType="Integer 16" minValueString="0" maxValueString="10" defaultValueString="0" usesScalarValueType="YES"/>
+        <attribute name="drain" attributeType="Integer 16" minValueString="0" maxValueString="10" defaultValueString="0" usesScalarValueType="YES"/>
+        <attribute name="duration" attributeType="Integer 16" minValueString="0" maxValueString="10" defaultValueString="0" usesScalarValueType="YES"/>
+        <attribute name="longDesc" optional="YES" attributeType="String" allowsExternalBinaryDataStorage="YES"/>
+        <attribute name="name" attributeType="String"/>
+        <attribute name="optionName" optional="YES" attributeType="String"/>
+        <attribute name="range" attributeType="Integer 16" minValueString="0" maxValueString="10" defaultValueString="0" usesScalarValueType="YES"/>
+        <attribute name="reference" optional="YES" attributeType="String"/>
+        <attribute name="shortDesc" optional="YES" attributeType="String"/>
+        <attribute name="type" attributeType="Integer 16" minValueString="0" maxValueString="10" defaultValueString="0" usesScalarValueType="YES"/>
+        <fetchedProperty name="fetchedProperty" optional="YES">
+            <fetchRequest name="fetchedPropertyFetchRequest" entity="SR6Spell"/>
+        </fetchedProperty>
+    </entity>
+    <elements>
+        <element name="SR6Spell" positionX="-63" positionY="-18" width="128" height="236"/>
+    </elements>
+</model>
